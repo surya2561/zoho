@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+ 
+ <servlet>
+ <servlet-name>abc</servlet-name>
+ <servlet-class>com.demo.Home</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>abc</servlet-name>
+ <url-pattern>/register</url-pattern>
+ </servlet-mapping>
+
+
+ <servlet>
+ <servlet-name>def</servlet-name>
+ <servlet-class>com.demo.UrlGeneration</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>def</servlet-name>
+ <url-pattern>/url</url-pattern>
+ </servlet-mapping>
+
+
+ <servlet>
+ <servlet-name>ghi</servlet-name>
+ <servlet-class>com.demo.GenerateUrl</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>ghi</servlet-name>
+ <url-pattern>/generateURL</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ <servlet-name>jkl</servlet-name>
+ <servlet-class>com.demo.CheckUser</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>jkl</servlet-name>
+ <url-pattern>/check</url-pattern>
+ </servlet-mapping>
+
+<servlet>
+ <servlet-name>mno</servlet-name>
+ <servlet-class>com.demo.ViewUserRequest</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>mno</servlet-name>
+ <url-pattern>/ViewUserRequest</url-pattern>
+ </servlet-mapping>
+
+<servlet>
+ <servlet-name>pqr</servlet-name>
+ <servlet-class>com.demo.ViewUserRequestAdmin</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>pqr</servlet-name>
+ <url-pattern>/ViewUserRequestAdmin</url-pattern>
+ </servlet-mapping>
+
+<servlet>
+ <servlet-name>stu</servlet-name>
+ <servlet-class>com.demo.GrantPermission</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>stu</servlet-name>
+ <url-pattern>/grantpermission</url-pattern>
+ </servlet-mapping>
+ 
+<servlet>
+ <servlet-name>vwx</servlet-name>
+ <servlet-class>com.demo.UserRegister</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>vwx</servlet-name>
+ <url-pattern>/UserRegister</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+ <servlet-name>yz</servlet-name>
+ <servlet-class>com.demo.SelectUsers</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>yz</servlet-name>
+ <url-pattern>/selectusers</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ <servlet-name>bcd</servlet-name>
+ <servlet-class>com.demo.DeleteUser</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>bcd</servlet-name>
+ <url-pattern>/deleteuser</url-pattern>
+ </servlet-mapping>
+
+<servlet>
+ <servlet-name>cde</servlet-name>
+ <servlet-class>com.demo.UserDeleteUser</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>cde</servlet-name>
+ <url-pattern>/userdeleteuser</url-pattern>
+ </servlet-mapping>
+
+<servlet>
+ <servlet-name>efg</servlet-name>
+ <servlet-class>com.demo.SaveUsers</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>efg</servlet-name>
+ <url-pattern>/saveusers</url-pattern>
+ </servlet-mapping>
+
+<servlet>
+ <servlet-name>fgh</servlet-name>
+ <servlet-class>com.demo.CheckGroups</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>fgh</servlet-name>
+ <url-pattern>/checkgroups</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ <servlet-name>hjk</servlet-name>
+ <servlet-class>com.demo.AddMember</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>hjk</servlet-name>
+ <url-pattern>/addmember</url-pattern>
+ </servlet-mapping>
+
+<servlet>
+ <servlet-name>klm</servlet-name>
+ <servlet-class>com.demo.DeleteMember</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>klm</servlet-name>
+ <url-pattern>/deletemember</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ <servlet-name>lmn</servlet-name>
+ <servlet-class>com.demo.DeleteGroup</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>lmn</servlet-name>
+ <url-pattern>/deletegroup</url-pattern>
+ </servlet-mapping>
+ 
+
+</web-app>
