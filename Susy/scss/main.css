@@ -1,0 +1,197 @@
+.header {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.header .header-top .slogan-image {
+  width: 8.47458%;
+  float: left;
+  margin-left: 67.79661%;
+  margin-right: -100%;
+  border: 1px solid red;
+  position: absolute;
+}
+
+.header .header-top .region-header-top .block-system-branding-block .site-title .bayer-logo {
+  width: 6.77966%;
+  float: left;
+  margin-left: 8.47458%;
+  margin-right: -100%;
+  border: 1px solid green;
+  margin-top: 3.50877%;
+}
+
+.header .header-top .region-header-top .block-system-branding-block .site-title .site-name {
+  margin-top: 3.50877%;
+  width: 23.72881%;
+  float: left;
+  margin-left: 16.94915%;
+  margin-right: -100%;
+  border: 1px solid black;
+}
+
+.header .header-top .region-header-top .block-system-branding-block .site-title .site-name a {
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.header .header-top .region-header-top .menu--bayer-innovation-menu-sec .menu {
+  background: blue;
+  padding-bottom: 20px;
+  width: 19.49153%;
+  float: left;
+  margin-left: 76.27119%;
+  margin-right: -100%;
+  border: 1px solid red;
+}
+
+.header .header-top .region-header-top .menu--bayer-innovation-menu-sec .menu li {
+  display: inline-block;
+}
+
+.header .header-top .region-header-top .menu--bayer-innovation-menu-sec .menu a {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+}
+
+.header .header-main .region-branding .menu--bayer-innovation-menu-mob .menu {
+  display: none;
+}
+
+.header .header-main .main-navigation .menu--main .menu {
+  width: 15.25424%;
+  float: left;
+  margin-left: 16.94915%;
+  margin-right: -100%;
+  border: 1px solid green;
+  margin-top: 9.21053%;
+}
+
+.header .header-main .main-navigation .menu--main .menu li {
+  display: inline-block;
+}
+
+.header .header-main .main-navigation .menu--main .menu a {
+  text-decoration: none;
+}
+
+.content .region-content .block-system-main-block .desktop-wrapper img {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+}
+
+.content .region-content .block-system-main-block .desktop-wrapper img:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.content .region-content .block-system-main-block .field--name-field-bayph-jivi-title {
+  position: absolute;
+  left: 5.664%;
+  top: 450px;
+}
+
+.content .region-content .block-system-main-block .field--name-field-bayph-jivi-title .hero-title1 {
+  font-family: "HelveticaNeue-ThinItalic";
+  font-size: 60px;
+  color: #FFFFFF;
+  background-color: #89D329;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding-bottom: 5px;
+}
+
+.content .region-content .block-system-main-block .field--name-field-bayph-jivi-title .hero-title2 {
+  font-family: "HelveticaNeue-ThinItalic";
+  font-size: 60px;
+  color: #FFFFFF;
+  background-color: #89D329;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding-bottom: 5px;
+  display: table;
+}
+
+.content .region-content .block-system-main-block .field--name-field-bayph-jivi-body {
+  padding-left: 57.226%;
+  margin-top: -13%;
+}
+
+.paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item .paragraph--type--offerings-teaser-grid {
+  width: 36.44068%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-top: 0px;
+  margin-top: 10px;
+  -webkit-box-shadow: 0px 4px 6px 0px #ccc;
+          box-shadow: 0px 4px 6px 0px #ccc;
+  background-color: #FFFFFF;
+  padding-top: 20px;
+  margin-right: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+
+.paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item .paragraph--type--offerings-teaser-grid .field--type-entity-reference a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-style: bold;
+}
+
+.paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item img {
+  width: 100%;
+  height: 250px;
+}
+
+.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image {
+  width: 32.20339%;
+  float: left;
+  margin-right: 1.69492%;
+}
+
+.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image .field--name-field-bayph-radlgy-prod-img img {
+  width: 100%;
+  height: 500px;
+}
+
+.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details {
+  width: 40.67797%;
+  float: left;
+  margin-right: 1.69492%;
+  border: 1px solid red;
+}
+
+.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayer-innovative-one-col-i img {
+  width: 100%;
+  background: #0e5d87;
+  height: 200px;
+}
+/*# sourceMappingURL=main.css.map */

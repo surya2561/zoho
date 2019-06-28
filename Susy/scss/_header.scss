@@ -1,0 +1,77 @@
+@mixin header(){
+.header{
+    @include container();
+    .header-top{
+        .slogan-image{
+            @include span(isolate 1.2 at 9 of 12);
+            border:1px solid red;
+            position: absolute;
+        }
+        .region-header-top{
+            .block-system-branding-block{
+                .site-title{
+                    
+                    .bayer-logo{
+                        @include span(isolate 1 at 2 of 12);
+                        border:1px solid green;
+                        margin-top:gutter()/1.5;
+                    }
+                    .site-name{
+                         margin-top:gutter()/1.5;
+                        @include span(isolate 3 at 3 of 12);
+                        border:1px solid black;
+                        a{
+                           
+                            text-decoration: none;
+                            font-size:40px;
+                        }
+                    }
+                }
+            }
+            .menu--bayer-innovation-menu-sec{
+                
+                .menu{
+                    background: blue;
+                    padding-bottom:20px;
+                      @include span(isolate 2.5 at 10 of 12 );
+                      border:1px solid red;
+                      li{
+                        display:inline-block;
+                    }
+                      a{
+                        text-decoration: none;
+                        color:white;
+                        padding-left:10px;
+                    }
+                }
+            }
+           
+        }
+    }
+    .header-main{
+        .region-branding{
+            .menu--bayer-innovation-menu-mob{
+                .menu{
+                    display:none;
+                }
+            }
+        }
+        .main-navigation{
+            .menu--main{
+                .menu{
+                    @include span(isolate 2 at 3 of 12);
+                    border:1px solid green;
+                    margin-top:gutters()*1.75;
+                    li{
+                        display:inline-block;
+                    }
+                    a{
+                        text-decoration: none;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+}

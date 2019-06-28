@@ -1,0 +1,41 @@
+@mixin banner(){
+    .content{
+        .region-content{
+            .block-system-main-block{
+                .desktop-wrapper{
+                    img{
+                      @include container();
+                      height:600px;
+                    }
+                }
+                .field--name-field-bayph-jivi-title{
+                        position: absolute;
+                        left: 5.664%;
+                        top: 450px;
+                        
+                   .hero-title1{
+                       font-family: "HelveticaNeue-ThinItalic";
+                       font-size: 60px;
+                       color: #FFFFFF;
+                       background-color: #89D329;
+                       width: max-content;
+                       padding-bottom: 5px;
+                   }
+                   .hero-title2{
+                       font-family: "HelveticaNeue-ThinItalic";
+                       font-size: 60px;
+                       color: #FFFFFF;
+                       background-color: #89D329;
+                       width: max-content;
+                       padding-bottom: 5px;
+                       display:table;
+                    }
+                }
+                .field--name-field-bayph-jivi-body{
+                        padding-left: 57.226%;
+                        margin-top: -13%;
+                }
+            }
+        }
+    }
+}

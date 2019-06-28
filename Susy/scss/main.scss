@@ -1,0 +1,35 @@
+@import "susy/language/susy";
+@import "_header";
+@import "_banner";
+@import "_box-section1.scss";
+@include header();
+@include banner();
+@include box-section1();
+.product-introduction-wrapper{
+&.paragraph--type--bayph-radlgy-p-prod-intro{
+    .teaser-image{
+            @include span(4 of 12);
+        
+        .field--name-field-bayph-radlgy-prod-img{
+            img{
+                width:100%;
+                height:500px;
+            }
+        }
+    }
+    .teaser-details{
+        @include span(5 of 12);
+        border:1px solid red;
+
+    .field--name-field-bayer-innovative-one-col-i{
+        img{
+            width:100%;
+            background: #0e5d87;
+            
+            height:200px;
+
+        }
+    }
+    }
+}
+}
