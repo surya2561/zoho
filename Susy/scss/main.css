@@ -13,9 +13,8 @@
 .header .header-top .slogan-image {
   width: 8.47458%;
   float: left;
-  margin-left: 67.79661%;
+  margin-left: 65.67797%;
   margin-right: -100%;
-  border: 1px solid red;
   position: absolute;
 }
 
@@ -24,7 +23,6 @@
   float: left;
   margin-left: 8.47458%;
   margin-right: -100%;
-  border: 1px solid green;
   margin-top: 3.50877%;
 }
 
@@ -38,6 +36,7 @@
 }
 
 .header .header-top .region-header-top .block-system-branding-block .site-title .site-name a {
+  color: black;
   text-decoration: none;
   font-size: 40px;
 }
@@ -45,11 +44,11 @@
 .header .header-top .region-header-top .menu--bayer-innovation-menu-sec .menu {
   background: blue;
   padding-bottom: 20px;
+  margin-top: -3px;
   width: 19.49153%;
   float: left;
   margin-left: 76.27119%;
   margin-right: -100%;
-  border: 1px solid red;
 }
 
 .header .header-top .region-header-top .menu--bayer-innovation-menu-sec .menu li {
@@ -60,6 +59,7 @@
   text-decoration: none;
   color: white;
   padding-left: 10px;
+  padding-top: 10px;
 }
 
 .header .header-main .region-branding .menu--bayer-innovation-menu-mob .menu {
@@ -67,20 +67,21 @@
 }
 
 .header .header-main .main-navigation .menu--main .menu {
-  width: 15.25424%;
+  width: 23.72881%;
   float: left;
-  margin-left: 16.94915%;
+  margin-left: 12.71186%;
   margin-right: -100%;
-  border: 1px solid green;
-  margin-top: 9.21053%;
+  margin-top: 7.89474%;
 }
 
 .header .header-main .main-navigation .menu--main .menu li {
   display: inline-block;
+  padding-left: 15px;
 }
 
 .header .header-main .main-navigation .menu--main .menu a {
   text-decoration: none;
+  color: black;
 }
 
 .content .region-content .block-system-main-block .desktop-wrapper img {
@@ -98,8 +99,8 @@
 
 .content .region-content .block-system-main-block .field--name-field-bayph-jivi-title {
   position: absolute;
-  left: 5.664%;
-  top: 450px;
+  left: 5.26316%;
+  top: 400px;
 }
 
 .content .region-content .block-system-main-block .field--name-field-bayph-jivi-title .hero-title1 {
@@ -130,12 +131,24 @@
   margin-top: -13%;
 }
 
+.content .region-content .block-system-main-block .field--name-field-bayer-innovative-banner-ct .field--name-field-bayph-radlgy-btn-cta-link {
+  padding-left: 57.226%;
+}
+
+.content .region-content .block-system-main-block .field--name-field-bayer-innovative-banner-ct .field--name-field-bayph-radlgy-btn-cta-link a {
+  text-decoration: none;
+  color: red;
+}
+
+.paragraph--type--offerings-teaser-grid-container {
+  margin-left: 15.78947%;
+  margin-right: 5.26316%;
+}
+
 .paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid:after {
@@ -145,53 +158,416 @@
 }
 
 .paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item .paragraph--type--offerings-teaser-grid {
-  width: 36.44068%;
+  width: 44.91525%;
   float: left;
   margin-right: 1.69492%;
-  margin-top: 0px;
-  margin-top: 10px;
+  margin-top: 30px;
   -webkit-box-shadow: 0px 4px 6px 0px #ccc;
           box-shadow: 0px 4px 6px 0px #ccc;
   background-color: #FFFFFF;
-  padding-top: 20px;
-  margin-right: 20px;
   padding-bottom: 30px;
-  margin-bottom: 50px;
+  border: 1px solid red;
 }
 
-.paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item .paragraph--type--offerings-teaser-grid .field--type-entity-reference a {
+.paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item .paragraph--type--offerings-teaser-grid .field--name-field-offerings-type {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item .paragraph--type--offerings-teaser-grid .field--name-field-offerings-type a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: 900;
   color: black;
   font-style: bold;
 }
 
+.paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item .paragraph--type--offerings-teaser-grid .field--name-field-offerings-description {
+  padding-top: 5px;
+  padding-left: 30px;
+}
+
+.paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item .paragraph--type--offerings-teaser-grid .field--name-field-offerings-link {
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+.paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item .paragraph--type--offerings-teaser-grid .field--name-field-offerings-link a {
+  color: red;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item .paragraph--type--offerings-teaser-grid .field--name-field-offerings-category {
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+.paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item .paragraph--type--offerings-teaser-grid .field--name-field-offerings-category a {
+  color: lightgreen;
+  text-decoration: none;
+}
+
+.paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item .paragraph--type--offerings-teaser-grid .field--name-field-offerings-title {
+  padding-top: 10px;
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+.paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item .paragraph--type--offerings-teaser-grid .field--name-field-read-more {
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item .paragraph--type--offerings-teaser-grid .field--name-field-read-more a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
 .paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item img {
+  padding-top: 20px;
   width: 100%;
   height: 250px;
 }
 
+.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro {
+  margin-top: 10.52632%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 15.78947%;
+}
+
+.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
 .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image {
-  width: 32.20339%;
+  width: 57.62712%;
   float: left;
   margin-right: 1.69492%;
+  margin-right: -25%;
 }
 
 .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image .field--name-field-bayph-radlgy-prod-img img {
-  width: 100%;
-  height: 500px;
+  width: 80%;
+  height: 450px;
 }
 
 .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details {
   width: 40.67797%;
   float: left;
   margin-right: 1.69492%;
-  border: 1px solid red;
+  height: 450px;
+  background: #0e5d87;
 }
 
 .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayer-innovative-one-col-i img {
   width: 100%;
-  background: #0e5d87;
   height: 200px;
+}
+
+.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-body {
+  padding-top: 5.26316%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-body p {
+  font-size: 25px;
+  color: white;
+}
+
+.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link a {
+  text-decoration: none;
+  color: white;
+}
+
+.product-introduction-wrapper.location-wrapper {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 15.78947%;
+}
+
+.product-introduction-wrapper.location-wrapper:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.product-introduction-wrapper.location-wrapper .teaser-image {
+  width: 57.62712%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-right: -25%;
+}
+
+.product-introduction-wrapper.location-wrapper .teaser-image .field--name-field-bayph-radlgy-prod-img img {
+  width: 100%;
+  height: 450px;
+}
+
+.product-introduction-wrapper.location-wrapper .teaser-details {
+  width: 40.67797%;
+  float: left;
+  margin-right: 1.69492%;
+  height: 450px;
+  background: #0e5d87;
+}
+
+.product-introduction-wrapper.location-wrapper .teaser-details .field--name-field-bayer-innovative-one-col-i img {
+  width: 100%;
+  height: 200px;
+}
+
+.product-introduction-wrapper.location-wrapper .teaser-details .field--name-field-bayph-radlgy-body {
+  padding-top: 5.26316%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.product-introduction-wrapper.location-wrapper .teaser-details .field--name-field-bayph-radlgy-body p {
+  font-size: 25px;
+  color: white;
+}
+
+.product-introduction-wrapper.location-wrapper .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.product-introduction-wrapper.location-wrapper .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link a {
+  text-decoration: none;
+  color: white;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-0a5c580a0c237aa72ee580956467340fb10b3dd84c4870e9257dcb58f7059897 .view-content {
+  width: 32.20339%;
+  float: left;
+  margin-left: 16.94915%;
+  margin-right: -100%;
+  margin-top: 25px;
+  -webkit-box-shadow: 0px 4px 6px 0px #cccccc;
+          box-shadow: 0px 4px 6px 0px #cccccc;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-0a5c580a0c237aa72ee580956467340fb10b3dd84c4870e9257dcb58f7059897 .view-content .views-row {
+  padding-top: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-0a5c580a0c237aa72ee580956467340fb10b3dd84c4870e9257dcb58f7059897 .view-content .views-row .type-header .type-date {
+  color: green;
+  font-weight: 900;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-0a5c580a0c237aa72ee580956467340fb10b3dd84c4870e9257dcb58f7059897 .view-content .views-row .type-header .type-date .type-date-day {
+  color: black;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-0a5c580a0c237aa72ee580956467340fb10b3dd84c4870e9257dcb58f7059897 .view-content .views-row .type-title {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-0a5c580a0c237aa72ee580956467340fb10b3dd84c4870e9257dcb58f7059897 .view-content .views-row .type-readmore {
+  padding-top: 15px;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-0a5c580a0c237aa72ee580956467340fb10b3dd84c4870e9257dcb58f7059897 .view-content .views-row .type-readmore a {
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .block-bayer-get-social-twitter-block .tw-container {
+  width: 32.20339%;
+  float: left;
+  margin-left: 50.84746%;
+  margin-right: -100%;
+  -webkit-box-shadow: 0px 4px 6px 0px #cccccc;
+          box-shadow: 0px 4px 6px 0px #cccccc;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-8b90219a6fb94b648fe1cdfd220c393ceb04b123d5dee1bbb00ca2f963c687ef .view-content {
+  width: 32.20339%;
+  float: left;
+  margin-left: 50.84746%;
+  margin-right: -100%;
+  -webkit-box-shadow: 0px 4px 6px 0px #cccccc;
+          box-shadow: 0px 4px 6px 0px #cccccc;
+  margin-top: 250px;
+}
+
+.footer {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.footer .footer-top {
+  margin-top: 5.26316%;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #00617F;
+  color: white;
+}
+
+.footer .footer-top .menu li {
+  list-style-type: none;
+  padding-top: 2.63158%;
+}
+
+.footer .footer-top .menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer .footer-top .region-footer-one {
+  width: 19.49153%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 10.52632%;
+}
+
+.footer .footer-top .region-footer-one h2 {
+  padding-left: 40px;
+}
+
+.footer .footer-top .region-footer-two {
+  width: 19.49153%;
+  float: left;
+  margin-right: 1.69492%;
+}
+
+.footer .footer-top .region-footer-two h2 {
+  padding-left: 40px;
+}
+
+.footer .footer-top .region-footer-three {
+  width: 19.49153%;
+  float: left;
+  margin-right: 1.69492%;
+}
+
+.footer .footer-top .region-footer-three h2 {
+  padding-left: 40px;
+}
+
+.footer .footer-top .region-footer-four {
+  width: 19.49153%;
+  float: left;
+  margin-right: 1.69492%;
+}
+
+.footer .footer-middle {
+  background-color: #4287f5;
+  color: white;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  height: 200px;
+}
+
+.footer .footer-middle .region-footer-middle {
+  padding-left: 23.68421%;
+}
+
+.footer .footer-middle .region-footer-middle nav h2 {
+  padding-left: 280px;
+}
+
+.footer .footer-middle .region-footer-middle .menu li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 30px;
+}
+
+.footer .footer-middle .region-footer-middle .menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer .footer-bottom {
+  background-color: #4287f5;
+  color: white;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.footer .footer-bottom .region-footer-bottom-left {
+  width: 27.9661%;
+  float: left;
+  margin-right: 1.69492%;
+}
+
+.footer .footer-bottom .region-footer-bottom-left p {
+  float: right;
+}
+
+.footer .footer-bottom .region-footer-bottom-middle {
+  width: 40.67797%;
+  float: left;
+  margin-right: 1.69492%;
+}
+
+.footer .footer-bottom .region-footer-bottom-middle .menu li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.footer .footer-bottom .region-footer-bottom-middle .menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer .footer-bottom .region-footer-bottom-right {
+  width: 15.25424%;
+  float: left;
+  margin-right: 1.69492%;
+}
+
+.footer .footer-bottom .region-footer-bottom-right .menu li {
+  list-style-type: none;
+}
+
+.footer .footer-bottom .region-footer-bottom-right .menu li a {
+  text-decoration: none;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */

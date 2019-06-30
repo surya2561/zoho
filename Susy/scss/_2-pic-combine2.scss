@@ -1,0 +1,50 @@
+@mixin combine-2(){
+    .product-introduction-wrapper{
+        &.location-wrapper {
+            @include container();
+            
+            margin-left:gutter()*3;
+            .teaser-image{
+                    @include span(7 of 12);
+                   margin-right:gutter(-25%);
+                .field--name-field-bayph-radlgy-prod-img{
+                    img{
+                        width:100%;
+                        height:450px;
+                    }
+                }
+            }
+            .teaser-details{
+                @include span(5 of 12);
+                height:450px;        
+                background: #0e5d87;
+        
+            .field--name-field-bayer-innovative-one-col-i{
+                img{
+                    width:100%;
+                    height:200px;
+                }
+            }
+            .field--name-field-bayph-radlgy-body{
+                padding-top:gutter();
+                padding-left:30px;
+                padding-right:30px;
+                p{
+                    font-size:25px;
+                    color:white;
+                }
+            }
+            .field--name-field-bayph-radlgy-p-btn {
+                .field--name-field-bayph-radlgy-btn-cta-link{
+                    padding-left:30px;
+                    padding-right:30px;
+                    a{
+                        text-decoration: none;
+                        color:white;
+                    }
+                }
+            }
+            }
+        }
+        }
+}

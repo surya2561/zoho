@@ -2,34 +2,14 @@
 @import "_header";
 @import "_banner";
 @import "_box-section1.scss";
+@import "_2-pic-combine2";
+@import "_buzz";
+@import "_footer";
+@import "2-pic-combine1";
 @include header();
 @include banner();
 @include box-section1();
-.product-introduction-wrapper{
-&.paragraph--type--bayph-radlgy-p-prod-intro{
-    .teaser-image{
-            @include span(4 of 12);
-        
-        .field--name-field-bayph-radlgy-prod-img{
-            img{
-                width:100%;
-                height:500px;
-            }
-        }
-    }
-    .teaser-details{
-        @include span(5 of 12);
-        border:1px solid red;
-
-    .field--name-field-bayer-innovative-one-col-i{
-        img{
-            width:100%;
-            background: #0e5d87;
-            
-            height:200px;
-
-        }
-    }
-    }
-}
-}
+@include combine-1();
+@include combine-2();
+@include buzz();
+@include footer();

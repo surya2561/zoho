@@ -3,8 +3,8 @@
     @include container();
     .header-top{
         .slogan-image{
-            @include span(isolate 1.2 at 9 of 12);
-            border:1px solid red;
+            @include span(isolate 1.2 at 8.75 of 12);
+           // border:1px solid red;
             position: absolute;
         }
         .region-header-top{
@@ -13,7 +13,7 @@
                     
                     .bayer-logo{
                         @include span(isolate 1 at 2 of 12);
-                        border:1px solid green;
+                       // border:1px solid green;
                         margin-top:gutter()/1.5;
                     }
                     .site-name{
@@ -21,7 +21,7 @@
                         @include span(isolate 3 at 3 of 12);
                         border:1px solid black;
                         a{
-                           
+                           color:black;
                             text-decoration: none;
                             font-size:40px;
                         }
@@ -33,8 +33,9 @@
                 .menu{
                     background: blue;
                     padding-bottom:20px;
+                    margin-top:-3px;
                       @include span(isolate 2.5 at 10 of 12 );
-                      border:1px solid red;
+                      //border:1px solid red;
                       li{
                         display:inline-block;
                     }
@@ -42,6 +43,7 @@
                         text-decoration: none;
                         color:white;
                         padding-left:10px;
+                        padding-top: 10px;
                     }
                 }
             }
@@ -59,15 +61,19 @@
         .main-navigation{
             .menu--main{
                 .menu{
-                    @include span(isolate 2 at 3 of 12);
-                    border:1px solid green;
-                    margin-top:gutters()*1.75;
+                    @include span(isolate 3 at 2.5 of 12);
+                   // border:1px solid green;
+                    margin-top:gutters()*1.5;
+                    //margin-right:-20px;
+                    
                     li{
-                        display:inline-block;
+                     display:inline-block;
+                    //list-style-type: none;
+                    padding-left:15px;
                     }
                     a{
                         text-decoration: none;
-                        
+                        color:black;
                     }
                 }
             }

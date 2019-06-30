@@ -10,8 +10,8 @@
                 }
                 .field--name-field-bayph-jivi-title{
                         position: absolute;
-                        left: 5.664%;
-                        top: 450px;
+                        left: gutter();
+                        top: 400px;
                         
                    .hero-title1{
                        font-family: "HelveticaNeue-ThinItalic";
@@ -33,7 +33,16 @@
                 }
                 .field--name-field-bayph-jivi-body{
                         padding-left: 57.226%;
-                        margin-top: -13%;
+                        margin-top: gutter(-13%);
+                }
+                .field--name-field-bayer-innovative-banner-ct{
+                    .field--name-field-bayph-radlgy-btn-cta-link{
+                        padding-left:57.226%;
+                        a{
+                            text-decoration: none;
+                            color:red;
+                        }
+                    }
                 }
             }
         }

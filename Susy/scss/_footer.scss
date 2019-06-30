@@ -1,0 +1,114 @@
+@mixin footer(){
+    .footer{
+        @include container();
+        .footer-top{
+            // @include container();
+            margin-top:gutter();
+            @include span(12 of 12);
+            
+            background-color:#00617F;
+            color:white;
+            .menu{
+                li{
+                    list-style-type: none;
+                    padding-top: gutter()/2;
+                }
+                a{
+                    text-decoration: none;
+                    color:white;
+                }
+            }
+            .region-footer-one{
+                @include span( 2.5 of 12);
+                margin-left:gutter()*2;
+                h2{
+                    padding-left:40px;
+                }
+            }
+            .region-footer-two{
+                @include span(2.5 of 12);
+                h2{
+                    padding-left:40px;
+                }
+            }
+            .region-footer-three{
+                @include span(2.5 of 12);
+                
+                h2{
+                    padding-left:40px;
+                }
+            }
+            .region-footer-four{
+                @include span(2.5 of 12);
+            }
+        }
+        .footer-middle{
+            background-color: #4287f5;
+            color:white;
+            @include span(12 of 12);
+            height:200px;
+            .region-footer-middle{
+                
+                padding-left:gutter()*4.5;
+                
+                nav{
+                    h2{
+                        padding-left:280px;
+                    }
+                }
+                .menu{
+                    li{
+                        list-style-type: none;
+                        display: inline-block;
+                        padding-left:30px;
+                    }
+                    a{
+                        text-decoration: none;
+                        color:white;
+    
+                    }
+                }
+            }
+            
+        }
+        .footer-bottom{
+            background-color: #4287f5;
+            color:white;
+            @include span(12 of 12);
+            .region-footer-bottom-left{
+                @include span(3.5 of 12);
+                p{
+                    float:right;
+                }
+            }
+            
+            .region-footer-bottom-middle{
+                @include span(5 of 12);
+                .menu{
+                    li{
+                        list-style-type: none;
+                        display:inline-block;
+                        padding-left:20px;
+                    }
+                    a{
+                        text-decoration: none; 
+                        color:white;
+                    }
+                }
+            }
+            
+            .region-footer-bottom-right{
+                @include span(2 of 12);
+                .menu{
+                    li{
+                        list-style-type: none;
+                        a{
+                            text-decoration: none;
+                            color:white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
