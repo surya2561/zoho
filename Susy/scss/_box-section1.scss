@@ -1,24 +1,75 @@
 @mixin box-section1(){
     .paragraph--type--offerings-teaser-grid-container{
    
-        margin-left: gutter()*3;
-        margin-right:gutter();
+       
        
         .field--name-field-offerings-grid{
         @include container();
+         @media screen and (min-width:767px) and (max-width:5000px){
+         padding-left: gutter()*3;
+         padding-right:gutter();
+         }
+          @media screen and (max-width:766px){
+             
+          }
+        
+        
         
         .field__item{
+            &:nth-child(1){
+                .paragraph--type--offerings-teaser-grid{
+                    @media screen and (min-width:767px) and (max-width:5000px){
+                    @include span(isolate 5.5 at 1 of 12);
+                    margin-top:75px;
+                    }
+                    @media screen and (max-width:766px){
+                        @include span(12 of 12);
+                    }
+                }
+            }
+             &:nth-child(2){
+                .paragraph--type--offerings-teaser-grid{
+                     @media screen and (min-width:767px) and (max-width:5000px){
+                    @include span(isolate 5.5 at 6.6 of 12);
+                    }
+                   @media screen and (max-width:766px){
+                        @include span(12 of 12);
+                    }
+                }
+            }
+             &:nth-child(3){
+                .paragraph--type--offerings-teaser-grid{
+                     @media screen and (min-width:767px) and (max-width:5000px){
+                    @include span(isolate 5.5 at 1 of 12);
+                    margin-top:640px;
+                     }
+                     @media screen and (max-width:766px){
+                        @include span(12 of 12);
+                    }
+                }
+            }
+             &:nth-child(4){
+                .paragraph--type--offerings-teaser-grid{
+                     @media screen and (min-width:767px) and (max-width:5000px){
+                    @include span(isolate 5.5 at 6.6 of 12);
+                    margin-top:600px;
+                     }
+                     @media screen and (max-width:766px){
+                        @include span(12 of 12);
+                    }
+                }
+            }
             .paragraph--type--offerings-teaser-grid{
             
-            @include span(5.5 of 12);
-            
+          
+           
             margin-top:30px;
             box-shadow: 0px 4px 6px 0px #ccc;
         
             background-color: #FFFFFF;
             padding-bottom: 30px;
-            border:1px solid red;
             
+           
         .field--name-field-offerings-type{
             padding-top:20px;
             padding-left:30px;
@@ -69,11 +120,19 @@
     }
         img{
             padding-top: 20px;
-                 width:100%;
-                 height:250px;
+            width:100%;
+            height:250px;
           }
 
         }
+        
+        // .field__item{
+        //     .paragraph{
+        //         &:nth-child(odd){          
+        //         }
+        //     }
+        // }
+       
     }
 }
 }

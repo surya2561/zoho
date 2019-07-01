@@ -4,11 +4,13 @@
     &.paragraph--type--block-reference{
             .field--name-field-block-reference{
                 @include container();
+                padding-left:10px;
             .js-view-dom-id-0a5c580a0c237aa72ee580956467340fb10b3dd84c4870e9257dcb58f7059897{
             .view-content{
-                    @include span(isolate 4 at 3 of 12);
+                    @include span(isolate 4.4 at 2.75 of 12);
                     margin-top:gutter(25px);
                     box-shadow: 0px 4px 6px 0px #cccccc;
+                    padding-bottom: 30px;
                     .views-row{
                         padding-top:30px;
                         padding-left:25px;
@@ -40,15 +42,83 @@
         }
         .block-bayer-get-social-twitter-block{
             .tw-container{
-                @include span(isolate 4 at 7 of 12);
+                @include span(isolate 4.5 at 7.2 of 12);
                 box-shadow: 0px 4px 6px 0px #cccccc;
+                padding-bottom:30px;
+                .header-container{
+                    @include span(1 of 12);
+                    margin-top:gutter(25px);
+                    padding-left:25px;
+                }
+                .tw-content-container{
+                    .title-container{
+                     margin-top:gutter(25px);
+                        padding-top:20px;
+                        .title{
+                            @include span(2 of 12);
+                            padding-left:15px;
+                            color:green;
+                            font-weight: bold;
+                        }
+                        .created-time{
+                            @include span(2 of 12);
+                            color:black;
+                        }
+                    }
+                    p{
+                        @include span(11 of 12);
+                        // border:1px solid red;
+                        padding-left:25px;
+                        color:black;
+                        font-size:30px;
+                        margin-top:0px;
+                    }
+                }
+                .goto-container{
+                    .post-container{
+                        span{
+                            @include span(12 of 12);
+                            padding-left:25px;
+                            color:black;
+                        }
+                    }
+                }
             }
+
         }
         .js-view-dom-id-8b90219a6fb94b648fe1cdfd220c393ceb04b123d5dee1bbb00ca2f963c687ef{
             .view-content{
-                @include span(isolate 4 at 7 of 12);
+                @include span(isolate 4.5 at 7.2 of 12);
                 box-shadow: 0px 4px 6px 0px #cccccc;
-                margin-top:gutter(250px);
+                margin-top:gutter(450px);
+                .views-row{
+                        padding-top:30px;
+                        padding-left:25px;
+                        padding-right:25px;
+                        padding-bottom:30px;
+                        .type-header{
+                            .type-date{
+                                color:green;
+                                font-weight: 900;
+                                .type-date-event{
+                                    color:black;
+                                }
+                            }
+                        }
+                        .type-title{
+                            font-size:20px;
+                            padding-top:10px;
+                        }
+                        .type-readmore{
+                            padding-top:15px;
+                            a{
+                                text-decoration: none;
+                                color:black;
+                                font-size: 10px;
+                                font-weight: bold;
+                            }
+                        }
+                    }
             }
         }
       }

@@ -32,7 +32,6 @@
   float: left;
   margin-left: 16.94915%;
   margin-right: -100%;
-  border: 1px solid black;
 }
 
 .header .header-top .region-header-top .block-system-branding-block .site-title .site-name a {
@@ -44,7 +43,7 @@
 .header .header-top .region-header-top .menu--bayer-innovation-menu-sec .menu {
   background: blue;
   padding-bottom: 20px;
-  margin-top: -3px;
+  margin-top: -10px;
   width: 19.49153%;
   float: left;
   margin-left: 76.27119%;
@@ -53,13 +52,13 @@
 
 .header .header-top .region-header-top .menu--bayer-innovation-menu-sec .menu li {
   display: inline-block;
+  padding-top: 15px;
 }
 
 .header .header-top .region-header-top .menu--bayer-innovation-menu-sec .menu a {
   text-decoration: none;
   color: white;
   padding-left: 10px;
-  padding-top: 10px;
 }
 
 .header .header-main .region-branding .menu--bayer-innovation-menu-mob .menu {
@@ -82,6 +81,10 @@
 .header .header-main .main-navigation .menu--main .menu a {
   text-decoration: none;
   color: black;
+}
+
+.content .region-content .block-system-main-block {
+  margin-top: 1.75439%;
 }
 
 .content .region-content .block-system-main-block .desktop-wrapper img {
@@ -140,11 +143,6 @@
   color: red;
 }
 
-.paragraph--type--offerings-teaser-grid-container {
-  margin-left: 15.78947%;
-  margin-right: 5.26316%;
-}
-
 .paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid {
   max-width: 100%;
   margin-left: auto;
@@ -157,16 +155,94 @@
   clear: both;
 }
 
+@media screen and (min-width: 767px) and (max-width: 5000px) {
+  .paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid {
+    padding-left: 15.78947%;
+    padding-right: 5.26316%;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 5000px) {
+  .paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item:nth-child(1) .paragraph--type--offerings-teaser-grid {
+    width: 44.91525%;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    margin-top: 75px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item:nth-child(1) .paragraph--type--offerings-teaser-grid {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 5000px) {
+  .paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item:nth-child(2) .paragraph--type--offerings-teaser-grid {
+    width: 44.91525%;
+    float: left;
+    margin-left: 47.45763%;
+    margin-right: -100%;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item:nth-child(2) .paragraph--type--offerings-teaser-grid {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 5000px) {
+  .paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item:nth-child(3) .paragraph--type--offerings-teaser-grid {
+    width: 44.91525%;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    margin-top: 640px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item:nth-child(3) .paragraph--type--offerings-teaser-grid {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 5000px) {
+  .paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item:nth-child(4) .paragraph--type--offerings-teaser-grid {
+    width: 44.91525%;
+    float: left;
+    margin-left: 47.45763%;
+    margin-right: -100%;
+    margin-top: 600px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item:nth-child(4) .paragraph--type--offerings-teaser-grid {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 .paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item .paragraph--type--offerings-teaser-grid {
-  width: 44.91525%;
-  float: left;
-  margin-right: 1.69492%;
   margin-top: 30px;
   -webkit-box-shadow: 0px 4px 6px 0px #ccc;
           box-shadow: 0px 4px 6px 0px #ccc;
   background-color: #FFFFFF;
   padding-bottom: 30px;
-  border: 1px solid red;
 }
 
 .paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item .paragraph--type--offerings-teaser-grid .field--name-field-offerings-type {
@@ -236,7 +312,6 @@
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-left: 15.78947%;
 }
 
 .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro:after {
@@ -245,24 +320,160 @@
   clear: both;
 }
 
-.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image {
-  width: 57.62712%;
-  float: left;
-  margin-right: 1.69492%;
-  margin-right: -25%;
+@media screen and (min-width: 1025px) and (max-width: 5000px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro {
+    margin-left: 15.78947%;
+  }
 }
 
-.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image .field--name-field-bayph-radlgy-prod-img img {
-  width: 80%;
-  height: 450px;
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro {
+    margin-left: 15.78947%;
+  }
+}
+
+.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .field--name-field-section-header .field--name-field-section-title p {
+  font-size: 30px;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 5000px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image {
+    width: 57.62712%;
+    float: left;
+    margin-right: 1.69492%;
+    margin-right: -15%;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image {
+    width: 85.16949%;
+    float: left;
+    margin-right: 1.69492%;
+    padding-top: -20px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 5000px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image .field--name-field-bayph-radlgy-prod-img img {
+    width: 100%;
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image .field--name-field-bayph-radlgy-prod-img img {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image .field--name-field-bayph-radlgy-prod-img img {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    height: 300px;
+    width: 100%;
+  }
 }
 
 .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details {
-  width: 40.67797%;
-  float: left;
-  margin-right: 1.69492%;
-  height: 450px;
   background: #0e5d87;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 5000px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details {
+    width: 44.0678%;
+    float: left;
+    margin-right: 1.69492%;
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details {
+    width: 85.16949%;
+    float: left;
+    margin-right: 1.69492%;
+    height: 300px;
+    margin-top: -10px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -20px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 5000px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-offerings-header {
+    padding-top: 90px;
+    padding-left: 60px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1025px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-offerings-header {
+    padding-top: 30px;
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-offerings-header {
+    padding-top: 30px;
+    padding-left: 40px;
+  }
+}
+
+.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-offerings-header a {
+  text-decoration: none;
+  color: lightgreen;
+  font-weight: bold;
+}
+
+.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-headline {
+  margin-top: -10px;
+}
+
+.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-headline p {
+  color: white;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 5000px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-headline p {
+    padding-left: 60px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1025px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-headline p {
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-headline p {
+    padding-top: 10px;
+    padding-left: 40px;
+  }
 }
 
 .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayer-innovative-one-col-i img {
@@ -270,20 +481,48 @@
   height: 200px;
 }
 
-.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-body {
-  padding-top: 5.26316%;
-  padding-left: 30px;
-  padding-right: 30px;
+@media screen and (min-width: 1025px) and (max-width: 5000px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-body {
+    padding-left: 70px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1025px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-body {
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-body {
+    padding-left: 40px;
+    padding-right: 30px;
+  }
 }
 
 .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-body p {
-  font-size: 25px;
+  font-size: 20px;
   color: white;
 }
 
-.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link {
-  padding-left: 30px;
-  padding-right: 30px;
+@media screen and (min-width: 1025px) and (max-width: 5000px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link {
+    padding-left: 70px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1025px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link {
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link {
+    padding-left: 40px;
+    padding-bottom: 30px;
+  }
 }
 
 .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link a {
@@ -295,7 +534,6 @@
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-left: 15.78947%;
 }
 
 .product-introduction-wrapper.location-wrapper:after {
@@ -304,29 +542,110 @@
   clear: both;
 }
 
-.product-introduction-wrapper.location-wrapper .teaser-image {
-  width: 57.62712%;
-  float: left;
-  margin-right: 1.69492%;
-  margin-right: -25%;
+@media screen and (min-width: 1025px) and (max-width: 5000px) {
+  .product-introduction-wrapper.location-wrapper {
+    margin-left: 15.78947%;
+  }
 }
 
-.product-introduction-wrapper.location-wrapper .teaser-image .field--name-field-bayph-radlgy-prod-img img {
-  width: 100%;
-  height: 450px;
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .product-introduction-wrapper.location-wrapper {
+    margin-right: 10.52632%;
+    margin-left: 15.78947%;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .product-introduction-wrapper.location-wrapper {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 5000px) {
+  .product-introduction-wrapper.location-wrapper .teaser-image {
+    width: 57.62712%;
+    float: left;
+    margin-right: 1.69492%;
+    margin-right: -15%;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .product-introduction-wrapper.location-wrapper .teaser-image {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .product-introduction-wrapper.location-wrapper .teaser-image {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 5000px) {
+  .product-introduction-wrapper.location-wrapper .teaser-image .field--name-field-bayph-radlgy-prod-img img {
+    width: 100%;
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .product-introduction-wrapper.location-wrapper .teaser-image .field--name-field-bayph-radlgy-prod-img img {
+    width: 100%;
+    height: 300px;
+  }
 }
 
 .product-introduction-wrapper.location-wrapper .teaser-details {
-  width: 40.67797%;
-  float: left;
-  margin-right: 1.69492%;
-  height: 450px;
   background: #0e5d87;
 }
 
-.product-introduction-wrapper.location-wrapper .teaser-details .field--name-field-bayer-innovative-one-col-i img {
-  width: 100%;
-  height: 200px;
+@media screen and (min-width: 1025px) and (max-width: 5000px) {
+  .product-introduction-wrapper.location-wrapper .teaser-details {
+    width: 44.0678%;
+    float: left;
+    margin-right: 1.69492%;
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .product-introduction-wrapper.location-wrapper .teaser-details {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .product-introduction-wrapper.location-wrapper .teaser-details {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 5000px) {
+  .product-introduction-wrapper.location-wrapper .teaser-details .field--name-field-bayer-innovative-one-col-i img {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .product-introduction-wrapper.location-wrapper .teaser-details .field--name-field-bayer-innovative-one-col-i img {
+    width: 100%;
+    height: 200px;
+  }
 }
 
 .product-introduction-wrapper.location-wrapper .teaser-details .field--name-field-bayph-radlgy-body {
@@ -354,6 +673,7 @@
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 10px;
 }
 
 .news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference:after {
@@ -363,13 +683,14 @@
 }
 
 .news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-0a5c580a0c237aa72ee580956467340fb10b3dd84c4870e9257dcb58f7059897 .view-content {
-  width: 32.20339%;
+  width: 35.59322%;
   float: left;
-  margin-left: 16.94915%;
+  margin-left: 14.83051%;
   margin-right: -100%;
   margin-top: 25px;
   -webkit-box-shadow: 0px 4px 6px 0px #cccccc;
           box-shadow: 0px 4px 6px 0px #cccccc;
+  padding-bottom: 30px;
 }
 
 .news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-0a5c580a0c237aa72ee580956467340fb10b3dd84c4870e9257dcb58f7059897 .view-content .views-row {
@@ -404,22 +725,103 @@
 }
 
 .news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .block-bayer-get-social-twitter-block .tw-container {
-  width: 32.20339%;
+  width: 36.44068%;
   float: left;
-  margin-left: 50.84746%;
+  margin-left: 52.54237%;
   margin-right: -100%;
   -webkit-box-shadow: 0px 4px 6px 0px #cccccc;
           box-shadow: 0px 4px 6px 0px #cccccc;
+  padding-bottom: 30px;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .block-bayer-get-social-twitter-block .tw-container .header-container {
+  width: 6.77966%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-top: 25px;
+  padding-left: 25px;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .block-bayer-get-social-twitter-block .tw-container .tw-content-container .title-container {
+  margin-top: 25px;
+  padding-top: 20px;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .block-bayer-get-social-twitter-block .tw-container .tw-content-container .title-container .title {
+  width: 15.25424%;
+  float: left;
+  margin-right: 1.69492%;
+  padding-left: 15px;
+  color: green;
+  font-weight: bold;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .block-bayer-get-social-twitter-block .tw-container .tw-content-container .title-container .created-time {
+  width: 15.25424%;
+  float: left;
+  margin-right: 1.69492%;
+  color: black;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .block-bayer-get-social-twitter-block .tw-container .tw-content-container p {
+  width: 91.52542%;
+  float: left;
+  margin-right: 1.69492%;
+  padding-left: 25px;
+  color: black;
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .block-bayer-get-social-twitter-block .tw-container .goto-container .post-container span {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 25px;
+  color: black;
 }
 
 .news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-8b90219a6fb94b648fe1cdfd220c393ceb04b123d5dee1bbb00ca2f963c687ef .view-content {
-  width: 32.20339%;
+  width: 36.44068%;
   float: left;
-  margin-left: 50.84746%;
+  margin-left: 52.54237%;
   margin-right: -100%;
   -webkit-box-shadow: 0px 4px 6px 0px #cccccc;
           box-shadow: 0px 4px 6px 0px #cccccc;
-  margin-top: 250px;
+  margin-top: 450px;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-8b90219a6fb94b648fe1cdfd220c393ceb04b123d5dee1bbb00ca2f963c687ef .view-content .views-row {
+  padding-top: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 30px;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-8b90219a6fb94b648fe1cdfd220c393ceb04b123d5dee1bbb00ca2f963c687ef .view-content .views-row .type-header .type-date {
+  color: green;
+  font-weight: 900;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-8b90219a6fb94b648fe1cdfd220c393ceb04b123d5dee1bbb00ca2f963c687ef .view-content .views-row .type-header .type-date .type-date-event {
+  color: black;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-8b90219a6fb94b648fe1cdfd220c393ceb04b123d5dee1bbb00ca2f963c687ef .view-content .views-row .type-title {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-8b90219a6fb94b648fe1cdfd220c393ceb04b123d5dee1bbb00ca2f963c687ef .view-content .views-row .type-readmore {
+  padding-top: 15px;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-8b90219a6fb94b648fe1cdfd220c393ceb04b123d5dee1bbb00ca2f963c687ef .view-content .views-row .type-readmore a {
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
 }
 
 .footer {

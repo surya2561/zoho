@@ -4,22 +4,114 @@
             margin-top:gutter()*2;
             @include container();
                 
-                margin-left:gutter()*3;
+                
+                @media screen and (min-width:1025px) and (max-width:5000px){
+                       margin-left:gutter()*3;
+                    }
+                    @media screen and (min-width:767px) and (max-width:1024px){
+                       margin-left:gutter()*3;
+                    }
+                     @media screen  and (max-width:766px){
+                        
+                        
+                    }
+                .field--name-field-section-header{
+                    .field--name-field-section-title{
+                     
+                        p{
+                            font-size:30px;
+                        }
+                    }
+                }
                 .teaser-image{
+                    @media screen and (min-width:1025px) and (max-width:5000px){
                         @include span(7 of 12);
-                       margin-right:gutter(-25%);
+                       margin-right:gutter(-15%);
+                    }
+                    @media screen and (min-width:767px) and (max-width:1024px){
+                        @include span(10.25 of 12);
+                        padding-top:-20px;
+                    }
+                     @media screen  and (max-width:766px){
+                        @include span(12 of 12);
+                        
+                    }
                     .field--name-field-bayph-radlgy-prod-img{
                         img{
-                            width:80%;
-                            height:450px;
+                       @media screen and (min-width:1025px) and (max-width:5000px){
+                       width:100%;
+                       height:500px;
+                    }
+                    @media screen and (min-width:767px) and (max-width:1024px){
+                        width:100%;
+                        height:300px;
+                    }
+                     @media screen  and (max-width:766px){
+                        @include span(12 of 12);
+                        height:300px;
+                        width:100%;
+                    }
+                            
                         }
                     }
                 }
                 .teaser-details{
-                    @include span(5 of 12);
-                    height:450px;        
                     background: #0e5d87;
-            
+                    @media screen and (min-width:1025px) and (max-width:5000px){
+                    @include span(5.4 of 12);
+                     height:500px; 
+                    }
+                     @media screen and (min-width:767px) and (max-width:1024px){
+                         @include span(10.25 of 12);
+                         height:300px;
+                         margin-top:-10px;
+                     }
+                      @media screen  and (max-width:766px){
+                        @include span(12 of 12);
+                       margin-top:-20px;
+                    }   
+                    
+                .field--name-field-offerings-header{
+                    @media screen and (min-width:1025px) and (max-width:5000px){
+                         padding-top:90px;
+                          padding-left:60px;
+                    }
+                   @media screen and (min-width:767px) and (max-width:1025px){
+                         padding-top:30px;
+                          padding-left:40px;
+                    }
+                   @media screen  and (max-width:766px){
+                       
+                        padding-top:30px;
+                          padding-left:40px;
+                    }
+                    a{
+                        text-decoration: none;
+                        color:lightgreen;
+                        font-weight: bold;
+                    }
+                }
+                .field--name-field-bayph-radlgy-headline{
+                    
+                        margin-top:-10px;
+                  
+                    p{
+                    @media screen and (min-width:1025px) and (max-width:5000px){
+                       padding-left:60px;
+                    }
+                    @media screen and (min-width:767px) and (max-width:1025px){
+                        padding-left:40px;
+                    }
+                     //   padding-left:50px;
+                     @media screen  and (max-width:766px){
+                       
+                        padding-top:10px;
+                          padding-left:40px;
+                    }
+                        color:white;
+                        font-size:30px;
+                    }
+                }
                 .field--name-field-bayer-innovative-one-col-i{
                     img{
                         width:100%;
@@ -27,18 +119,38 @@
                     }
                 }
                 .field--name-field-bayph-radlgy-body{
-                    padding-top:gutter();
-                    padding-left:30px;
+                   
+                    @media screen and (min-width:1025px) and (max-width:5000px){
+                       padding-left:70px;
                     padding-right:30px;
+                    
+                    }
+                    @media screen and (min-width:767px) and (max-width:1025px){
+                        padding-left:40px;
+                    }
+                   // padding-left:70px;
+                    @media screen  and (max-width:766px){
+                        
+                          padding-left:40px;
+                          padding-right:30px;
+                    }
                     p{
-                        font-size:25px;
+                        font-size:20px;
                         color:white;
                     }
                 }
                 .field--name-field-bayph-radlgy-p-btn {
                     .field--name-field-bayph-radlgy-btn-cta-link{
-                        padding-left:30px;
-                        padding-right:30px;
+                      @media screen and (min-width:1025px) and (max-width:5000px){
+                       padding-left:70px;
+                    }
+                    @media screen and (min-width:767px) and (max-width:1025px){
+                        padding-left:40px;
+                    }
+                    @media screen  and (max-width:766px){
+                          padding-left:40px;
+                          padding-bottom:30px;
+                    }
                         a{
                             text-decoration: none;
                             color:white;

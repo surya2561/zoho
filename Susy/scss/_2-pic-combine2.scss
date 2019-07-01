@@ -2,27 +2,78 @@
     .product-introduction-wrapper{
         &.location-wrapper {
             @include container();
-            
-            margin-left:gutter()*3;
+            @media screen and (min-width:1025px) and (max-width:5000px){
+                margin-left:gutter()*3;
+            }
+           
+             @media screen and (min-width:767px) and (max-width:1024px){
+                 margin-right:gutter()*2;
+                  margin-left:gutter()*3;
+             }
+              @media screen and (max-width:766px)
+                {
+                 margin-right:0;
+                }
             .teaser-image{
-                    @include span(7 of 12);
-                   margin-right:gutter(-25%);
+
+                @media screen and (min-width:1025px) and (max-width:5000px)
+                {
+                 @include span(7 of 12);
+                 margin-right:gutter(-15%);
+                }
+                @media screen and (min-width:767px) and (max-width:1024px)
+                {
+                 @include span(12 of 12);
+                 
+                }
+                 @media screen and (max-width:766px)
+                {
+                 @include span(12 of 12);
+                 
+                }
+                   
                 .field--name-field-bayph-radlgy-prod-img{
                     img{
+                @media screen and (min-width:1025px) and (max-width:5000px)
+                {
                         width:100%;
-                        height:450px;
+                        height:500px;
+                }
+                @media screen and (min-width:767px) and (max-width:1024px)
+                {
+                        width:100%;
+                        height:300px;
+                }
                     }
                 }
             }
             .teaser-details{
-                @include span(5 of 12);
-                height:450px;        
+                @media screen and (min-width:1025px) and (max-width:5000px){
+                @include span(5.4 of 12);
+                height:500px; 
+                }
+                @media screen and (min-width:767px) and (max-width:1024px){
+                    @include span(12 of 12);
+                    height:450px; 
+                }
+                 @media screen and (max-width:766px)
+                {
+                 @include span(12 of 12);
+                 
+                }      
                 background: #0e5d87;
         
             .field--name-field-bayer-innovative-one-col-i{
+
                 img{
+                @media screen and (min-width:1025px) and (max-width:5000px){
+                width:100%;
+                height:200px; 
+                }
+                @media screen and (min-width:767px) and (max-width:1024px){
                     width:100%;
-                    height:200px;
+                    height:200px; 
+                }
                 }
             }
             .field--name-field-bayph-radlgy-body{

@@ -2,6 +2,7 @@
     .content{
         .region-content{
             .block-system-main-block{
+                margin-top:gutter()/3;
                 .desktop-wrapper{
                     img{
                       @include container();
