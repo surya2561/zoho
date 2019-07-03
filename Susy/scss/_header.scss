@@ -3,43 +3,148 @@
     @include container();
     .header-top{
         .slogan-image{
+             @media screen and (max-width:5000px) and (min-width:1025px){
             @include span(isolate 1.2 at 8.75 of 12);
-           // border:1px solid red;
-            position: absolute;
+             }
+            @media screen and (max-width:1024px) and (min-width:767px){
+                float:right;
+            }
+            @media screen and (max-width:766px){
+                float:right;
+              
+                
+            }
+            //position: absolute;
         }
         .region-header-top{
             .block-system-branding-block{
                 .site-title{
                     
                     .bayer-logo{
+                        @media screen and (max-width:5000px) and (min-width:1025px){
                         @include span(isolate 1 at 2 of 12);
-                       // border:1px solid green;
+
+                        height:100px;
+                        width:100px;                        }
+                        @media screen and (max-width:1024px) and (min-width:767px){
+                            @include span(isolate 1 at 1 of 12);
+                            height:70px;
+                            width:70px;
+                        }
+                        @media screen and (max-width:766px) and (min-width:400px){
+                            @include span(isolate 1 at 1.5 of 12);
+                            height:50px;
+                            width:50px;
+                        }
+                        
+                        @media screen and (max-width:399px){
+                            @include span(isolate 1 at 1 of 12);
+                            height:50px;
+                            width:50px;
+                        }
+                     
                         margin-top:gutter()/1.5;
+
                     }
                     .site-name{
-                         margin-top:gutter()/1.5;
-                        @include span(isolate 3 at 3 of 12);
+                         
+                        
                         // border:1px solid black;
+                        @media screen and (max-width:5000px) and (min-width:1025px){
+                            @include span(isolate 4 at 3 of 12);
+                        margin-left:18%;
+                        margin-top:gutter()/1.5;
+                        }
+                        @media screen and (max-width:1024px) and (min-width:767px){
+                            @include span(isolate 5 at 3 of 12);
+                            margin-left:10%;
+                            margin-top:gutter();
+                        }
+                        @media screen and (max-width:766px) and (min-width:501px){
+                            @include span(6 at 3 of 12);
+                            margin-left:14%;
+                            margin-top:35px;
+                            
+                        }
+                        @media screen and (max-width:500px){
+                            @include span(6 at 3 of 12);
+                            margin-left:20%;
+                            margin-top:35px;
+                            
+                        }
                         a{
                            color:black;
                             text-decoration: none;
+                            @media screen and (max-width:5000px) and (min-width:1025px){
                             font-size:40px;
+                            }
+                            @media screen and (max-width:1024px) and (min-width:767px){
+                            font-size:40px;
+                            }
+                            @media screen and (max-width:766px){
+                                font-size:20px;
+                            }
+                            
                         }
                     }
                 }
             }
             .menu--bayer-innovation-menu-sec{
-                
+                .hamburger{
+                            @media screen and (max-width:5000px) and (min-width:1025px){
+                                display: none;
+                            }
+                            @media screen and (max-width:1024px) and (min-width:767px){
+                            height:40px;
+                            width:40px;
+                            float:right;
+                            margin-top:50px;
+                            margin-right:-90px;
+                            }
+                            @media screen and (max-width:766px) and (min-width:565px){
+                                height:30px;
+                                width:30px;
+                                float:right;
+                                margin-top:25px;
+                                margin-right:5px;
+                                margin-left:150px;
+                            }
+                            @media screen and (max-width:564px){
+                                height:30px;
+                                width:30px;
+                                float:right;
+                                margin-top:-20px;
+                                margin-right:5px;
+                                margin-left:150px;
+                            }
+                        }
+                    .cross{
+                         @media screen and (max-width:5000px) and (min-width:1025px){
+                                display: none;
+                            }
+                            @media screen and (max-width:1024px){
+                            height:40px;
+                            width:40px;
+                            float:right;
+                            margin-top:50px;
+                            margin-right:10px;
+                            visibility: hidden;
+                            }
+                    }
                 .menu{
-                    background: blue;
+                            @media screen and (max-width:1024px){
+                            display:none;
+                            }
+                    background-image: url("https://corpboip.test-bayer.acsitefactory.com/sites/g/files/kmftyc736/themes/site/docroot/themes/custom/bayer_corp_boip_basetheme/images/top-bg.png");
                     padding-bottom:20px;
                     margin-top:-10px;
-                      @include span(isolate 2.5 at 10 of 12 );
-                      //border:1px solid red;
+                      @include span(isolate 3 at 9.6 of 12 );
+                      
                       li{
                         display:inline-block;
                         
                         padding-top: 15px;
+                        
                     }
                       a{
                         text-decoration: none;
@@ -48,36 +153,167 @@
                     }
                 }
             }
+
+           
            
         }
     }
     .header-main{
+        
         .region-branding{
+             
             .menu--bayer-innovation-menu-mob{
+               
+                
                 .menu{
+                
+                     @media screen and (max-width:5000px) and (min-width:1025px){
                     display:none;
+                     }
+                     @media screen and (max-width:1024px) and (min-width:767px){
+
+                         display:none;
+                       @include span(11.5 of 12);
+                         padding-top:10px;
+
+                         margin-top:20px;
+                
+                         li{
+                             list-style-type: none;
+                             padding-top:30px;
+                             padding-bottom:30px;
+                             a{
+                                 text-decoration: none;
+                                 color:white;
+                             }
+                         }
+                     }
+                     @media screen and (max-width:766px){
+                         display:none;
+                          @include span(11.3 of 12);
+                         padding-top:10px;
+
+                         margin-top:20px;
+               
+                         li{
+                             list-style-type: none;
+                             padding-top:30px;
+                             padding-bottom:30px;
+                             a{
+                                 text-decoration: none;
+                                 color:white;
+                             }
+                         }
+                     }
                 }
             }
         }
         .main-navigation{
             .menu--main{
-                .menu{
-                    @include span(isolate 3 at 2.5 of 12);
-                   // border:1px solid green;
-                    margin-top:gutters()*1.5;
-                    //margin-right:-20px;
+                 
+                        
+                         .search{
+                         @media screen and (max-width:5000px) and (min-width:1025px){
+                             @include span(isolate 1 at 5.5 of 12);
+                         margin-top:120px;
+                         height:20px;
+                           width:20px;
+                         }
+                         @media screen and (max-width:1024px) and (min-width:767px){
+                             @include span(isolate 1 at 11.5 of 12);
+                             width:30px;
+                                height:30px;
+                             margin-top:55px;
+                         }
+                          @media screen and (max-width:766px){
+                              
+                        
+                          }
+                         }
+                       
                     
+                .menu{
+                     @media screen and (max-width:5000px) and (min-width:1025px){
+                            @include span(isolate 5 at 2.5 of 12);
+                            
+                            
+                            margin-left:225px;
+                             margin-top:120px;
+                             position:absolute;
+                             padding:0;
+                        }
+                        @media screen and (max-width:1024px) and (min-width:767px){
+                           display:none;
+                        }
+                        @media screen and (max-width:766px){
+                            display:none;
+                        }
+                   // border:1px solid green;
+                   
                     li{
                      display:inline-block;
-                    //list-style-type: none;
-                    padding-left:15px;
+                    
+                   padding-left:5%;
+                    
+                   
+                    
+                    ::after{
+                        content: " ";
+                        width: 1px;
+                        height: 20px;
+                        background-color: #BFD7DF;
+                        position: absolute;
+                        transform: rotate(12deg);
+                        margin-left: 16px;
+                        margin-top: 1px;
+                        
                     }
+                }
                     a{
                         text-decoration: none;
                         color:black;
                     }
                 }
             }
+        }
+
+        .header-search{
+            @media screen and (max-width:5000px) and (min-width:1025px){
+            display: none;
+             margin-top:20px;
+               height: 100px;
+               .form--inline{
+                   .js-form-type-search-api-autocomplete{
+                        padding-left: 20%;
+                       
+                       input{
+                           height: 50px;
+                          width:500px;
+                        
+                        
+                       }
+                   }
+               }
+            }
+           @media screen and (max-width:1024px) and (min-width:767px){
+               display:none;
+               @include span(12 of 12);
+               margin-top:20px;
+               height: 100px;
+               .form--inline{
+                   .js-form-type-search-api-autocomplete{
+                        padding-left: 20%;
+                       input{
+                           height: 50px;
+                          width:500px;
+                        
+                       }
+                   }
+               }
+           }
+           @media screen and (max-width:766px){
+               display:none;
+           }
         }
     }
 }

@@ -1,10 +1,75 @@
 @mixin buzz(){
-    
+
+
+.container-offering{
+    &.paragraph--type--section-header{
+        .field--name-field-section-title{
+                margin-left:40%;
+                         padding-top:30px;
+                         padding-bottom:10px;
+                        .line-1{
+                           img{
+                               height:5px;
+                         width:20px;
+                      
+                         position:absolute;
+                         margin-top:20px;
+                           }
+                         
+                        
+                        }
+                        
+                     .line-2{
+                        img{
+                        height:50px;
+                         width:30px;
+                        
+                         position:absolute;
+                         margin-left:-20px;
+                        margin-top:22px;
+                           }
+                        
+                         
+                     }
+                     .line-3{
+                          img{
+                               height:5px;
+                         width:20px;
+                       
+                         position:absolute;
+                         margin-top:100px;
+                         margin-left:-20px;
+                         padding-top:20px;
+                           }
+                     }
+                     .line-4{
+                         img{
+                        height:50px;
+                         width:30px;
+                        
+                         position:absolute;
+                         margin-left:220px;
+                          margin-top:22px;
+                           }
+                         
+                        
+                     }
+                        p{
+                            font-size:30px;
+                            padding-left:15px;
+                            color:rgb(0, 188, 255);
+                            padding-top:20px;
+                            line-height: 35px;
+                        }
+        }
+    }
+}
 .news-social-feed-wrapper{
     &.paragraph--type--block-reference{
             .field--name-field-block-reference{
                 @include container();
                 padding-left:10px;
+                margin-top:-20px;
             .js-view-dom-id-0a5c580a0c237aa72ee580956467340fb10b3dd84c4870e9257dcb58f7059897{
             .view-content{
                 @media screen and (max-width:5000px) and (min-width:1025px){
@@ -25,11 +90,27 @@
                         padding-right:25px;
                         .type-header{
                             .type-date{
+                                
+                             ::before{
+                                 content: " ";
+                        width: 1px;
+                        height: 20px;
+                        background-color: gray;
+                        position: absolute;
+                        transform: rotate(11deg);
+                        margin-left: -10px;
+                        margin-top: 1px;
+                                   
+                                }
                                 color:green;
                                 font-weight: 900;
+                               
                                 .type-date-day{
                                     color:black;
+                                    margin-left:10px;
+                                    
                                 }
+                                
                             }
                         }
                         .type-title{
@@ -38,11 +119,23 @@
                         }
                         .type-readmore{
                             padding-top:15px;
+                            ::before{
+                                 content: " ";
+                        width: 1px;
+                        height: 20px;
+                        background-color: black;
+                        position: absolute;
+                        transform: rotate(11deg);
+                        margin-left: -10px;
+                        margin-top: 1px;
+                                   
+                                }
                             a{
                                 text-decoration: none;
                                 color:black;
-                                font-size: 10px;
+                                font-size: 15px;
                                 font-weight: bold;
+                                margin-left:10px;
                             }
                         }
                     }
@@ -66,20 +159,40 @@
                     @include span(1 of 12);
                     margin-top:gutter(25px);
                     padding-left:25px;
+                    img{
+                    width:20px;
+                    height:20px;
+                    }
                 }
                 .tw-content-container{
                     .title-container{
                      margin-top:gutter(25px);
-                        padding-top:10px;
+                        padding-top:0px;
                         .title{
-                            @include span(3 of 12);
-                            padding-left:15px;
+                            @include span(2.5 of 12);
+                            padding-left:5px;
                             color:green;
                             font-weight: bold;
                             padding-top:-10px;
+                            
+                            margin-left:0px;
                         }
+                          ::before{
+                                 content: " ";
+                        width: 1px;
+                        height: 20px;
+                        background-color: gray;
+                        position: absolute;
+                        transform: rotate(11deg);
+                        margin-left: -10px;
+                        margin-top: 1px;
+                                   
+                            }
                         .created-time{
+                           
                             @include span(2 of 12);
+                            margin-left:-10px;
+                           
                             color:black;
                         }
                     }
@@ -103,10 +216,22 @@
                 }
                 .goto-container{
                     .post-container{
+                           ::before{
+                                 content: " ";
+                        width: 1px;
+                        height: 20px;
+                        background-color: black;
+                        position: absolute;
+                        transform: rotate(11deg);
+                        margin-left: -10px;
+                        margin-top: 1px;
+                                   
+                                }
                         span{
                             @include span(12 of 12);
-                            padding-left:25px;
+                            padding-left:35px;
                             color:black;
+                          
                         }
                     }
                 }
@@ -135,10 +260,22 @@
                         padding-bottom:30px;
                         .type-header{
                             .type-date{
+                                ::before{
+                                 content: " ";
+                        width: 1px;
+                        height: 20px;
+                        background-color: gray;
+                        position: absolute;
+                        transform: rotate(11deg);
+                        margin-left: -5px;
+                        margin-top: 1px;
+                                   
+                                }
                                 color:green;
                                 font-weight: 900;
                                 .type-date-event{
                                     color:black;
+                                    padding-left:10px;
                                 }
                             }
                         }
@@ -149,11 +286,23 @@
                         }
                         .type-readmore{
                             padding-top:15px;
+                             ::before{
+                                 content: " ";
+                        width: 1px;
+                        height: 20px;
+                        background-color: black;
+                        position: absolute;
+                        transform: rotate(11deg);
+                        margin-left: -10px;
+                        margin-top: 1px;
+                                   
+                                }
                             a{
                                 text-decoration: none;
                                 color:black;
-                                font-size: 10px;
+                                font-size: 15px;
                                 font-weight: bold;
+                                padding-left:10px;
                             }
                         }
                     }

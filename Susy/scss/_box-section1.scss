@@ -1,10 +1,72 @@
 @mixin box-section1(){
+    .container-offering-1{
+        &.paragraph--type--section-header{
+            .field--name-field-section-title{
+                         margin-left:35%;
+                         padding-top:30px;
+                         padding-bottom:10px;
+                        .line-1{
+                           img{
+                               height:5px;
+                         width:20px;
+                      
+                         position:absolute;
+                         margin-top:20px;
+                           }
+                         
+                        
+                        }
+                        
+                     .line-2{
+                        img{
+                        height:50px;
+                         width:30px;
+                        
+                         position:absolute;
+                         margin-left:-20px;
+                        margin-top:22px;
+                           }
+                        
+                         
+                     }
+                     .line-3{
+                          img{
+                               height:5px;
+                         width:20px;
+                       
+                         position:absolute;
+                         margin-top:130px;
+                         margin-left:-20px;
+                         padding-top:20px;
+                           }
+                     }
+                     .line-4{
+                         img{
+                        height:50px;
+                         width:30px;
+                        
+                         position:absolute;
+                         margin-left:200px;
+                          margin-top:22px;
+                           }
+                         
+                        
+                     }
+                        p{
+                            font-size:30px;
+                            padding-left:40px;
+                            color:rgb(0, 188, 255);
+                        }
+                       
+            }
+        }
+    }
+
+
     .paragraph--type--offerings-teaser-grid-container{
-   
-       
-       
         .field--name-field-offerings-grid{
         @include container();
+        margin-top:-70px;
          @media screen and (min-width:767px) and (max-width:5000px){
          padding-left: gutter()*3;
          padding-right:gutter();
@@ -88,10 +150,13 @@
          .field--name-field-offerings-link{
             padding-left:30px;
             padding-top:15px;
+           
              a{
-                 color:red;
+                 
+                 color:rgb(255, 49, 98);
                  text-decoration: none;
                  font-size:10px;
+                 padding-top:-10px;
              }
          }
          .field--name-field-offerings-category{
@@ -111,10 +176,21 @@
          .field--name-field-read-more{
             padding-top:10px;
             padding-left:30px;
+            ::before{
+                        content: " ";
+                        width: 1px;
+                        height: 20px;
+                        background-color: black;
+                        position: absolute;
+                        transform: rotate(11deg);
+                        margin-left: -10px;
+                        margin-top: 0px;
+                    }
              a{
                  text-decoration: none;
                  color:black;
                  font-size:15px;
+                 margin-left:10px;
              }
          }
     }

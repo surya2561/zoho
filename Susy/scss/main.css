@@ -10,44 +10,209 @@
   clear: both;
 }
 
-.header .header-top .slogan-image {
-  width: 8.47458%;
-  float: left;
-  margin-left: 65.67797%;
-  margin-right: -100%;
-  position: absolute;
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .header .header-top .slogan-image {
+    width: 8.47458%;
+    float: left;
+    margin-left: 65.67797%;
+    margin-right: -100%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .header .header-top .slogan-image {
+    float: right;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .header .header-top .slogan-image {
+    float: right;
+  }
 }
 
 .header .header-top .region-header-top .block-system-branding-block .site-title .bayer-logo {
-  width: 6.77966%;
-  float: left;
-  margin-left: 8.47458%;
-  margin-right: -100%;
   margin-top: 3.50877%;
 }
 
-.header .header-top .region-header-top .block-system-branding-block .site-title .site-name {
-  margin-top: 3.50877%;
-  width: 23.72881%;
-  float: left;
-  margin-left: 16.94915%;
-  margin-right: -100%;
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .header .header-top .region-header-top .block-system-branding-block .site-title .bayer-logo {
+    width: 6.77966%;
+    float: left;
+    margin-left: 8.47458%;
+    margin-right: -100%;
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .header .header-top .region-header-top .block-system-branding-block .site-title .bayer-logo {
+    width: 6.77966%;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    height: 70px;
+    width: 70px;
+  }
+}
+
+@media screen and (max-width: 766px) and (min-width: 400px) {
+  .header .header-top .region-header-top .block-system-branding-block .site-title .bayer-logo {
+    width: 6.77966%;
+    float: left;
+    margin-left: 4.23729%;
+    margin-right: -100%;
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .header .header-top .region-header-top .block-system-branding-block .site-title .bayer-logo {
+    width: 6.77966%;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .header .header-top .region-header-top .block-system-branding-block .site-title .site-name {
+    width: 32.20339%;
+    float: left;
+    margin-left: 16.94915%;
+    margin-right: -100%;
+    margin-left: 18%;
+    margin-top: 3.50877%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .header .header-top .region-header-top .block-system-branding-block .site-title .site-name {
+    width: 40.67797%;
+    float: left;
+    margin-left: 16.94915%;
+    margin-right: -100%;
+    margin-left: 10%;
+    margin-top: 5.26316%;
+  }
+}
+
+@media screen and (max-width: 766px) and (min-width: 501px) {
+  .header .header-top .region-header-top .block-system-branding-block .site-title .site-name {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+    margin-left: 14%;
+    margin-top: 35px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header .header-top .region-header-top .block-system-branding-block .site-title .site-name {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+    margin-left: 20%;
+    margin-top: 35px;
+  }
 }
 
 .header .header-top .region-header-top .block-system-branding-block .site-title .site-name a {
   color: black;
   text-decoration: none;
-  font-size: 40px;
+}
+
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .header .header-top .region-header-top .block-system-branding-block .site-title .site-name a {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .header .header-top .region-header-top .block-system-branding-block .site-title .site-name a {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .header .header-top .region-header-top .block-system-branding-block .site-title .site-name a {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .header .header-top .region-header-top .menu--bayer-innovation-menu-sec .hamburger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .header .header-top .region-header-top .menu--bayer-innovation-menu-sec .hamburger {
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-top: 50px;
+    margin-right: -90px;
+  }
+}
+
+@media screen and (max-width: 766px) and (min-width: 565px) {
+  .header .header-top .region-header-top .menu--bayer-innovation-menu-sec .hamburger {
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 5px;
+    margin-left: 150px;
+  }
+}
+
+@media screen and (max-width: 564px) {
+  .header .header-top .region-header-top .menu--bayer-innovation-menu-sec .hamburger {
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-top: -20px;
+    margin-right: 5px;
+    margin-left: 150px;
+  }
+}
+
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .header .header-top .region-header-top .menu--bayer-innovation-menu-sec .cross {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header .header-top .region-header-top .menu--bayer-innovation-menu-sec .cross {
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 10px;
+    visibility: hidden;
+  }
 }
 
 .header .header-top .region-header-top .menu--bayer-innovation-menu-sec .menu {
-  background: blue;
+  background-image: url("https://corpboip.test-bayer.acsitefactory.com/sites/g/files/kmftyc736/themes/site/docroot/themes/custom/bayer_corp_boip_basetheme/images/top-bg.png");
   padding-bottom: 20px;
   margin-top: -10px;
-  width: 19.49153%;
+  width: 23.72881%;
   float: left;
-  margin-left: 76.27119%;
+  margin-left: 72.88136%;
   margin-right: -100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .header .header-top .region-header-top .menu--bayer-innovation-menu-sec .menu {
+    display: none;
+  }
 }
 
 .header .header-top .region-header-top .menu--bayer-innovation-menu-sec .menu li {
@@ -61,26 +226,161 @@
   padding-left: 10px;
 }
 
-.header .header-main .region-branding .menu--bayer-innovation-menu-mob .menu {
-  display: none;
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .header .header-main .region-branding .menu--bayer-innovation-menu-mob .menu {
+    display: none;
+  }
 }
 
-.header .header-main .main-navigation .menu--main .menu {
-  width: 23.72881%;
-  float: left;
-  margin-left: 12.71186%;
-  margin-right: -100%;
-  margin-top: 7.89474%;
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .header .header-main .region-branding .menu--bayer-innovation-menu-mob .menu {
+    display: none;
+    width: 95.76271%;
+    float: left;
+    margin-right: 1.69492%;
+    padding-top: 10px;
+    margin-top: 20px;
+  }
+  .header .header-main .region-branding .menu--bayer-innovation-menu-mob .menu li {
+    list-style-type: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .header .header-main .region-branding .menu--bayer-innovation-menu-mob .menu li a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .header .header-main .region-branding .menu--bayer-innovation-menu-mob .menu {
+    display: none;
+    width: 94.0678%;
+    float: left;
+    margin-right: 1.69492%;
+    padding-top: 10px;
+    margin-top: 20px;
+  }
+  .header .header-main .region-branding .menu--bayer-innovation-menu-mob .menu li {
+    list-style-type: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .header .header-main .region-branding .menu--bayer-innovation-menu-mob .menu li a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .header .header-main .main-navigation .menu--main .search {
+    width: 6.77966%;
+    float: left;
+    margin-left: 38.13559%;
+    margin-right: -100%;
+    margin-top: 120px;
+    height: 20px;
+    width: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .header .header-main .main-navigation .menu--main .search {
+    width: 6.77966%;
+    float: left;
+    margin-left: 88.98305%;
+    margin-right: -100%;
+    width: 30px;
+    height: 30px;
+    margin-top: 55px;
+  }
+}
+
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .header .header-main .main-navigation .menu--main .menu {
+    width: 40.67797%;
+    float: left;
+    margin-left: 12.71186%;
+    margin-right: -100%;
+    margin-left: 225px;
+    margin-top: 120px;
+    position: absolute;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .header .header-main .main-navigation .menu--main .menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .header .header-main .main-navigation .menu--main .menu {
+    display: none;
+  }
 }
 
 .header .header-main .main-navigation .menu--main .menu li {
   display: inline-block;
-  padding-left: 15px;
+  padding-left: 5%;
+}
+
+.header .header-main .main-navigation .menu--main .menu li ::after {
+  content: " ";
+  width: 1px;
+  height: 20px;
+  background-color: #BFD7DF;
+  position: absolute;
+  -webkit-transform: rotate(12deg);
+          transform: rotate(12deg);
+  margin-left: 16px;
+  margin-top: 1px;
 }
 
 .header .header-main .main-navigation .menu--main .menu a {
   text-decoration: none;
   color: black;
+}
+
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .header .header-main .header-search {
+    display: none;
+    margin-top: 20px;
+    height: 100px;
+  }
+  .header .header-main .header-search .form--inline .js-form-type-search-api-autocomplete {
+    padding-left: 20%;
+  }
+  .header .header-main .header-search .form--inline .js-form-type-search-api-autocomplete input {
+    height: 50px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .header .header-main .header-search {
+    display: none;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    height: 100px;
+  }
+  .header .header-main .header-search .form--inline .js-form-type-search-api-autocomplete {
+    padding-left: 20%;
+  }
+  .header .header-main .header-search .form--inline .js-form-type-search-api-autocomplete input {
+    height: 50px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .header .header-main .header-search {
+    display: none;
+  }
 }
 
 .content .region-content .block-system-main-block {
@@ -91,13 +391,30 @@
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  height: 600px;
 }
 
 .content .region-content .block-system-main-block .desktop-wrapper img:after {
   content: " ";
   display: block;
   clear: both;
+}
+
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .content .region-content .block-system-main-block .desktop-wrapper img {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .content .region-content .block-system-main-block .desktop-wrapper img {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .content .region-content .block-system-main-block .desktop-wrapper img {
+    height: 300px;
+  }
 }
 
 .content .region-content .block-system-main-block .field--name-field-bayph-jivi-title {
@@ -108,18 +425,35 @@
 
 .content .region-content .block-system-main-block .field--name-field-bayph-jivi-title .hero-title1 {
   font-family: "HelveticaNeue-ThinItalic";
-  font-size: 60px;
   color: #FFFFFF;
   background-color: #89D329;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   padding-bottom: 5px;
+  position: absolute;
+}
+
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .content .region-content .block-system-main-block .field--name-field-bayph-jivi-title .hero-title1 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .content .region-content .block-system-main-block .field--name-field-bayph-jivi-title .hero-title1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .content .region-content .block-system-main-block .field--name-field-bayph-jivi-title .hero-title1 {
+    font-size: 30px;
+  }
 }
 
 .content .region-content .block-system-main-block .field--name-field-bayph-jivi-title .hero-title2 {
   font-family: "HelveticaNeue-ThinItalic";
-  font-size: 60px;
   color: #FFFFFF;
   background-color: #89D329;
   width: -webkit-max-content;
@@ -127,6 +461,28 @@
   width: max-content;
   padding-bottom: 5px;
   display: table;
+  position: absolute;
+}
+
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .content .region-content .block-system-main-block .field--name-field-bayph-jivi-title .hero-title2 {
+    font-size: 60px;
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .content .region-content .block-system-main-block .field--name-field-bayph-jivi-title .hero-title2 {
+    font-size: 40px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .content .region-content .block-system-main-block .field--name-field-bayph-jivi-title .hero-title2 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
 }
 
 .content .region-content .block-system-main-block .field--name-field-bayph-jivi-body {
@@ -138,15 +494,79 @@
   padding-left: 57.226%;
 }
 
+.content .region-content .block-system-main-block .field--name-field-bayer-innovative-banner-ct .field--name-field-bayph-radlgy-btn-cta-link img {
+  width: 15px;
+  height: 22px;
+  position: absolute;
+}
+
 .content .region-content .block-system-main-block .field--name-field-bayer-innovative-banner-ct .field--name-field-bayph-radlgy-btn-cta-link a {
   text-decoration: none;
   color: red;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.content .region-content .block-system-main-block .field--name-field-bayer-innovative-banner-ct .field--name-field-bayph-radlgy-btn-cta-link a ::after {
+  content: "";
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 13px;
+  left: -3px;
+  background-image: url("https://corpboip.test-bayer.acsitefactory.com/sites/g/files/kmftyc736/themes/site/docroot/themes/custom/bayer_corp_boip_basetheme/images/vertical_lines.png");
+  background-repeat: no-repeat;
+}
+
+.container-offering-1.paragraph--type--section-header .field--name-field-section-title {
+  margin-left: 35%;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.container-offering-1.paragraph--type--section-header .field--name-field-section-title .line-1 img {
+  height: 5px;
+  width: 20px;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.container-offering-1.paragraph--type--section-header .field--name-field-section-title .line-2 img {
+  height: 50px;
+  width: 30px;
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 22px;
+}
+
+.container-offering-1.paragraph--type--section-header .field--name-field-section-title .line-3 img {
+  height: 5px;
+  width: 20px;
+  position: absolute;
+  margin-top: 130px;
+  margin-left: -20px;
+  padding-top: 20px;
+}
+
+.container-offering-1.paragraph--type--section-header .field--name-field-section-title .line-4 img {
+  height: 50px;
+  width: 30px;
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 22px;
+}
+
+.container-offering-1.paragraph--type--section-header .field--name-field-section-title p {
+  font-size: 30px;
+  padding-left: 40px;
+  color: #00bcff;
 }
 
 .paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: -70px;
 }
 
 .paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid:after {
@@ -269,9 +689,10 @@
 }
 
 .paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item .paragraph--type--offerings-teaser-grid .field--name-field-offerings-link a {
-  color: red;
+  color: #ff3162;
   text-decoration: none;
   font-size: 10px;
+  padding-top: -10px;
 }
 
 .paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item .paragraph--type--offerings-teaser-grid .field--name-field-offerings-category {
@@ -295,10 +716,23 @@
   padding-left: 30px;
 }
 
+.paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item .paragraph--type--offerings-teaser-grid .field--name-field-read-more ::before {
+  content: " ";
+  width: 1px;
+  height: 20px;
+  background-color: black;
+  position: absolute;
+  -webkit-transform: rotate(11deg);
+          transform: rotate(11deg);
+  margin-left: -10px;
+  margin-top: 0px;
+}
+
 .paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item .paragraph--type--offerings-teaser-grid .field--name-field-read-more a {
   text-decoration: none;
   color: black;
   font-size: 15px;
+  margin-left: 10px;
 }
 
 .paragraph--type--offerings-teaser-grid-container .field--name-field-offerings-grid .field__item img {
@@ -307,37 +741,81 @@
   height: 250px;
 }
 
-.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro {
+.product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 {
   margin-top: 10.52632%;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro:after {
+.product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1:after {
   content: " ";
   display: block;
   clear: both;
 }
 
 @media screen and (min-width: 1025px) and (max-width: 5000px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 {
     margin-left: 15.78947%;
   }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1024px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 {
     margin-left: 15.78947%;
   }
 }
 
-.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .field--name-field-section-header .field--name-field-section-title p {
+.product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .field--name-field-section-header .section-header .field--name-field-section-title {
+  margin-left: 35%;
+}
+
+.product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .field--name-field-section-header .section-header .field--name-field-section-title .line-1 img {
+  height: 5px;
+  width: 20px;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .field--name-field-section-header .section-header .field--name-field-section-title .line-2 img {
+  height: 50px;
+  width: 30px;
+  -webkit-transition: all 0.9s ease-out 0s;
+  transition: all 0.9s ease-out 0s;
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 22px;
+}
+
+.product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .field--name-field-section-header .section-header .field--name-field-section-title .line-3 img {
+  height: 5px;
+  width: 20px;
+  -webkit-transition: all 0.9s ease-out 0s;
+  transition: all 0.9s ease-out 0s;
+  position: absolute;
+  margin-top: 130px;
+  margin-left: -20px;
+}
+
+.product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .field--name-field-section-header .section-header .field--name-field-section-title .line-4 img {
+  height: 50px;
+  width: 30px;
+  -webkit-transition: all 0.9s ease-out 0s;
+  transition: all 0.9s ease-out 0s;
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 22px;
+}
+
+.product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .field--name-field-section-header .section-header .field--name-field-section-title p {
   font-size: 30px;
+  padding-left: 40px;
+  padding-top: 40px;
+  color: #00bcff;
 }
 
 @media screen and (min-width: 1025px) and (max-width: 5000px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-image {
     width: 57.62712%;
     float: left;
     margin-right: 1.69492%;
@@ -346,7 +824,7 @@
 }
 
 @media screen and (min-width: 767px) and (max-width: 1024px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-image {
     width: 85.16949%;
     float: left;
     margin-right: 1.69492%;
@@ -355,7 +833,7 @@
 }
 
 @media screen and (max-width: 766px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-image {
     width: 100%;
     float: left;
     margin-left: 0;
@@ -364,21 +842,21 @@
 }
 
 @media screen and (min-width: 1025px) and (max-width: 5000px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image .field--name-field-bayph-radlgy-prod-img img {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-image .field--name-field-bayph-radlgy-prod-img img {
     width: 100%;
     height: 500px;
   }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1024px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image .field--name-field-bayph-radlgy-prod-img img {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-image .field--name-field-bayph-radlgy-prod-img img {
     width: 100%;
     height: 300px;
   }
 }
 
 @media screen and (max-width: 766px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image .field--name-field-bayph-radlgy-prod-img img {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-image .field--name-field-bayph-radlgy-prod-img img {
     width: 100%;
     float: left;
     margin-left: 0;
@@ -388,12 +866,12 @@
   }
 }
 
-.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details {
+.product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details {
   background: #0e5d87;
 }
 
 @media screen and (min-width: 1025px) and (max-width: 5000px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details {
     width: 44.0678%;
     float: left;
     margin-right: 1.69492%;
@@ -402,7 +880,7 @@
 }
 
 @media screen and (min-width: 767px) and (max-width: 1024px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details {
     width: 85.16949%;
     float: left;
     margin-right: 1.69492%;
@@ -412,7 +890,7 @@
 }
 
 @media screen and (max-width: 766px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details {
     width: 100%;
     float: left;
     margin-left: 0;
@@ -422,147 +900,214 @@
 }
 
 @media screen and (min-width: 1025px) and (max-width: 5000px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-offerings-header {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details .field--name-field-offerings-header {
     padding-top: 90px;
     padding-left: 60px;
   }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1025px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-offerings-header {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details .field--name-field-offerings-header {
     padding-top: 30px;
     padding-left: 40px;
   }
 }
 
 @media screen and (max-width: 766px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-offerings-header {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details .field--name-field-offerings-header {
     padding-top: 30px;
     padding-left: 40px;
   }
 }
 
-.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-offerings-header a {
+.product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details .field--name-field-offerings-header a {
   text-decoration: none;
   color: lightgreen;
   font-weight: bold;
 }
 
-.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-headline {
+.product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details .field--name-field-bayph-radlgy-headline {
   margin-top: -10px;
 }
 
-.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-headline p {
+.product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details .field--name-field-bayph-radlgy-headline p {
   color: white;
   font-size: 30px;
 }
 
 @media screen and (min-width: 1025px) and (max-width: 5000px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-headline p {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details .field--name-field-bayph-radlgy-headline p {
     padding-left: 60px;
   }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1025px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-headline p {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details .field--name-field-bayph-radlgy-headline p {
     padding-left: 40px;
   }
 }
 
 @media screen and (max-width: 766px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-headline p {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details .field--name-field-bayph-radlgy-headline p {
     padding-top: 10px;
     padding-left: 40px;
   }
 }
 
-.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayer-innovative-one-col-i img {
+.product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details .field--name-field-bayer-innovative-one-col-i img {
   width: 100%;
   height: 200px;
 }
 
 @media screen and (min-width: 1025px) and (max-width: 5000px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-body {
-    padding-left: 70px;
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details .field--name-field-bayph-radlgy-body {
+    padding-left: 60px;
     padding-right: 30px;
   }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1025px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-body {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details .field--name-field-bayph-radlgy-body {
     padding-left: 40px;
   }
 }
 
 @media screen and (max-width: 766px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-body {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details .field--name-field-bayph-radlgy-body {
     padding-left: 40px;
     padding-right: 30px;
   }
 }
 
-.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-body p {
+.product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details .field--name-field-bayph-radlgy-body p {
   font-size: 20px;
   color: white;
 }
 
 @media screen and (min-width: 1025px) and (max-width: 5000px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link {
     padding-left: 70px;
   }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1025px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link {
     padding-left: 40px;
   }
 }
 
 @media screen and (max-width: 766px) {
-  .product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link {
     padding-left: 40px;
     padding-bottom: 30px;
   }
 }
 
-.product-introduction-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link a {
-  text-decoration: none;
-  color: white;
+.product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link ::before {
+  content: " ";
+  width: 1px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  -webkit-transform: rotate(11deg);
+          transform: rotate(11deg);
+  margin-left: -10px;
+  margin-top: 0px;
 }
 
-.product-introduction-wrapper.location-wrapper {
+.product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+.product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.product-introduction-wrapper.location-wrapper:after {
+.product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro:after {
   content: " ";
   display: block;
   clear: both;
 }
 
 @media screen and (min-width: 1025px) and (max-width: 5000px) {
-  .product-introduction-wrapper.location-wrapper {
+  .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro {
     margin-left: 15.78947%;
   }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1024px) {
-  .product-introduction-wrapper.location-wrapper {
+  .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro {
     margin-right: 10.52632%;
     margin-left: 15.78947%;
   }
 }
 
 @media screen and (max-width: 766px) {
-  .product-introduction-wrapper.location-wrapper {
+  .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro {
     margin-right: 0;
   }
 }
 
+.product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .field--name-field-section-header .section-header .field--name-field-section-title {
+  margin-left: 20%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .field--name-field-section-header .section-header .field--name-field-section-title .line-1 img {
+  height: 5px;
+  width: 20px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .field--name-field-section-header .section-header .field--name-field-section-title .line-2 img {
+  height: 50px;
+  width: 30px;
+  -webkit-transition: all 0.9s ease-out 0s;
+  transition: all 0.9s ease-out 0s;
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 22px;
+}
+
+.product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .field--name-field-section-header .section-header .field--name-field-section-title .line-3 img {
+  height: 5px;
+  width: 20px;
+  -webkit-transition: all 0.9s ease-out 0s;
+  transition: all 0.9s ease-out 0s;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 0px;
+}
+
+.product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .field--name-field-section-header .section-header .field--name-field-section-title .line-4 img {
+  height: 50px;
+  width: 30px;
+  -webkit-transition: all 0.9s ease-out 0s;
+  transition: all 0.9s ease-out 0s;
+  position: absolute;
+  margin-left: 310px;
+  margin-top: 22px;
+}
+
+.product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .field--name-field-section-header .section-header .field--name-field-section-title p {
+  font-size: 30px;
+  padding-left: 40px;
+  color: #00bcff;
+}
+
+.product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image {
+  margin-top: -40px;
+}
+
 @media screen and (min-width: 1025px) and (max-width: 5000px) {
-  .product-introduction-wrapper.location-wrapper .teaser-image {
+  .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image {
     width: 57.62712%;
     float: left;
     margin-right: 1.69492%;
@@ -571,7 +1116,7 @@
 }
 
 @media screen and (min-width: 767px) and (max-width: 1024px) {
-  .product-introduction-wrapper.location-wrapper .teaser-image {
+  .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image {
     width: 100%;
     float: left;
     margin-left: 0;
@@ -580,7 +1125,7 @@
 }
 
 @media screen and (max-width: 766px) {
-  .product-introduction-wrapper.location-wrapper .teaser-image {
+  .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image {
     width: 100%;
     float: left;
     margin-left: 0;
@@ -589,25 +1134,33 @@
 }
 
 @media screen and (min-width: 1025px) and (max-width: 5000px) {
-  .product-introduction-wrapper.location-wrapper .teaser-image .field--name-field-bayph-radlgy-prod-img img {
+  .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image .field--name-field-bayph-radlgy-prod-img img {
     width: 100%;
     height: 500px;
   }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1024px) {
-  .product-introduction-wrapper.location-wrapper .teaser-image .field--name-field-bayph-radlgy-prod-img img {
+  .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image .field--name-field-bayph-radlgy-prod-img img {
     width: 100%;
     height: 300px;
   }
 }
 
-.product-introduction-wrapper.location-wrapper .teaser-details {
-  background: #0e5d87;
+@media screen and (max-width: 766px) {
+  .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-image .field--name-field-bayph-radlgy-prod-img img {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+.product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details {
+  margin-top: -40px;
+  background: #00617f;
 }
 
 @media screen and (min-width: 1025px) and (max-width: 5000px) {
-  .product-introduction-wrapper.location-wrapper .teaser-details {
+  .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details {
     width: 44.0678%;
     float: left;
     margin-right: 1.69492%;
@@ -616,57 +1169,132 @@
 }
 
 @media screen and (min-width: 767px) and (max-width: 1024px) {
-  .product-introduction-wrapper.location-wrapper .teaser-details {
+  .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details {
     width: 100%;
     float: left;
     margin-left: 0;
     margin-right: 0;
     height: 450px;
+    margin-top: -10px;
   }
 }
 
 @media screen and (max-width: 766px) {
-  .product-introduction-wrapper.location-wrapper .teaser-details {
+  .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details {
     width: 100%;
     float: left;
     margin-left: 0;
     margin-right: 0;
+    margin-top: -10px;
   }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 5000px) {
-  .product-introduction-wrapper.location-wrapper .teaser-details .field--name-field-bayer-innovative-one-col-i img {
+  .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayer-innovative-one-col-i img {
     width: 100%;
     height: 200px;
   }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1024px) {
-  .product-introduction-wrapper.location-wrapper .teaser-details .field--name-field-bayer-innovative-one-col-i img {
+  .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayer-innovative-one-col-i img {
     width: 100%;
     height: 200px;
   }
 }
 
-.product-introduction-wrapper.location-wrapper .teaser-details .field--name-field-bayph-radlgy-body {
+@media screen and (max-width: 766px) {
+  .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayer-innovative-one-col-i img {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+.product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-body {
   padding-top: 5.26316%;
   padding-left: 30px;
   padding-right: 30px;
 }
 
-.product-introduction-wrapper.location-wrapper .teaser-details .field--name-field-bayph-radlgy-body p {
+@media screen and (max-width: 766px) {
+  .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-body {
+    padding-top: 2.63158%;
+  }
+}
+
+.product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-body p {
   font-size: 25px;
   color: white;
 }
 
-.product-introduction-wrapper.location-wrapper .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link {
-  padding-left: 30px;
-  padding-right: 30px;
+@media screen and (max-width: 766px) {
+  .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-body p {
+    font-size: 20px;
+  }
 }
 
-.product-introduction-wrapper.location-wrapper .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link a {
+.product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link img {
+  width: 20px;
+  height: 25px;
+  position: absolute;
+}
+
+.product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .teaser-details .field--name-field-bayph-radlgy-p-btn .field--name-field-bayph-radlgy-btn-cta-link a {
   text-decoration: none;
-  color: white;
+  color: #19a9d8;
+  margin-left: 25px;
+}
+
+.container-offering.paragraph--type--section-header .field--name-field-section-title {
+  margin-left: 40%;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.container-offering.paragraph--type--section-header .field--name-field-section-title .line-1 img {
+  height: 5px;
+  width: 20px;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.container-offering.paragraph--type--section-header .field--name-field-section-title .line-2 img {
+  height: 50px;
+  width: 30px;
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 22px;
+}
+
+.container-offering.paragraph--type--section-header .field--name-field-section-title .line-3 img {
+  height: 5px;
+  width: 20px;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: -20px;
+  padding-top: 20px;
+}
+
+.container-offering.paragraph--type--section-header .field--name-field-section-title .line-4 img {
+  height: 50px;
+  width: 30px;
+  position: absolute;
+  margin-left: 220px;
+  margin-top: 22px;
+}
+
+.container-offering.paragraph--type--section-header .field--name-field-section-title p {
+  font-size: 30px;
+  padding-left: 15px;
+  color: #00bcff;
+  padding-top: 20px;
+  line-height: 35px;
 }
 
 .news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference {
@@ -674,6 +1302,7 @@
   margin-left: auto;
   margin-right: auto;
   padding-left: 10px;
+  margin-top: -20px;
 }
 
 .news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference:after {
@@ -727,8 +1356,21 @@
   font-weight: 900;
 }
 
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-0a5c580a0c237aa72ee580956467340fb10b3dd84c4870e9257dcb58f7059897 .view-content .views-row .type-header .type-date ::before {
+  content: " ";
+  width: 1px;
+  height: 20px;
+  background-color: gray;
+  position: absolute;
+  -webkit-transform: rotate(11deg);
+          transform: rotate(11deg);
+  margin-left: -10px;
+  margin-top: 1px;
+}
+
 .news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-0a5c580a0c237aa72ee580956467340fb10b3dd84c4870e9257dcb58f7059897 .view-content .views-row .type-header .type-date .type-date-day {
   color: black;
+  margin-left: 10px;
 }
 
 .news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-0a5c580a0c237aa72ee580956467340fb10b3dd84c4870e9257dcb58f7059897 .view-content .views-row .type-title {
@@ -740,11 +1382,24 @@
   padding-top: 15px;
 }
 
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-0a5c580a0c237aa72ee580956467340fb10b3dd84c4870e9257dcb58f7059897 .view-content .views-row .type-readmore ::before {
+  content: " ";
+  width: 1px;
+  height: 20px;
+  background-color: black;
+  position: absolute;
+  -webkit-transform: rotate(11deg);
+          transform: rotate(11deg);
+  margin-left: -10px;
+  margin-top: 1px;
+}
+
 .news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-0a5c580a0c237aa72ee580956467340fb10b3dd84c4870e9257dcb58f7059897 .view-content .views-row .type-readmore a {
   text-decoration: none;
   color: black;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
+  margin-left: 10px;
 }
 
 .news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .block-bayer-get-social-twitter-block .tw-container {
@@ -788,25 +1443,44 @@
   padding-left: 25px;
 }
 
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .block-bayer-get-social-twitter-block .tw-container .header-container img {
+  width: 20px;
+  height: 20px;
+}
+
 .news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .block-bayer-get-social-twitter-block .tw-container .tw-content-container .title-container {
   margin-top: 25px;
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 .news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .block-bayer-get-social-twitter-block .tw-container .tw-content-container .title-container .title {
-  width: 23.72881%;
+  width: 19.49153%;
   float: left;
   margin-right: 1.69492%;
-  padding-left: 15px;
+  padding-left: 5px;
   color: green;
   font-weight: bold;
   padding-top: -10px;
+  margin-left: 0px;
+}
+
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .block-bayer-get-social-twitter-block .tw-container .tw-content-container .title-container ::before {
+  content: " ";
+  width: 1px;
+  height: 20px;
+  background-color: gray;
+  position: absolute;
+  -webkit-transform: rotate(11deg);
+          transform: rotate(11deg);
+  margin-left: -10px;
+  margin-top: 1px;
 }
 
 .news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .block-bayer-get-social-twitter-block .tw-container .tw-content-container .title-container .created-time {
   width: 15.25424%;
   float: left;
   margin-right: 1.69492%;
+  margin-left: -10px;
   color: black;
 }
 
@@ -837,12 +1511,24 @@
   }
 }
 
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .block-bayer-get-social-twitter-block .tw-container .goto-container .post-container ::before {
+  content: " ";
+  width: 1px;
+  height: 20px;
+  background-color: black;
+  position: absolute;
+  -webkit-transform: rotate(11deg);
+          transform: rotate(11deg);
+  margin-left: -10px;
+  margin-top: 1px;
+}
+
 .news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .block-bayer-get-social-twitter-block .tw-container .goto-container .post-container span {
   width: 100%;
   float: left;
   margin-left: 0;
   margin-right: 0;
-  padding-left: 25px;
+  padding-left: 35px;
   color: black;
 }
 
@@ -892,8 +1578,21 @@
   font-weight: 900;
 }
 
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-8b90219a6fb94b648fe1cdfd220c393ceb04b123d5dee1bbb00ca2f963c687ef .view-content .views-row .type-header .type-date ::before {
+  content: " ";
+  width: 1px;
+  height: 20px;
+  background-color: gray;
+  position: absolute;
+  -webkit-transform: rotate(11deg);
+          transform: rotate(11deg);
+  margin-left: -5px;
+  margin-top: 1px;
+}
+
 .news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-8b90219a6fb94b648fe1cdfd220c393ceb04b123d5dee1bbb00ca2f963c687ef .view-content .views-row .type-header .type-date .type-date-event {
   color: black;
+  padding-left: 10px;
 }
 
 .news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-8b90219a6fb94b648fe1cdfd220c393ceb04b123d5dee1bbb00ca2f963c687ef .view-content .views-row .type-title {
@@ -905,11 +1604,24 @@
   padding-top: 15px;
 }
 
+.news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-8b90219a6fb94b648fe1cdfd220c393ceb04b123d5dee1bbb00ca2f963c687ef .view-content .views-row .type-readmore ::before {
+  content: " ";
+  width: 1px;
+  height: 20px;
+  background-color: black;
+  position: absolute;
+  -webkit-transform: rotate(11deg);
+          transform: rotate(11deg);
+  margin-left: -10px;
+  margin-top: 1px;
+}
+
 .news-social-feed-wrapper.paragraph--type--block-reference .field--name-field-block-reference .js-view-dom-id-8b90219a6fb94b648fe1cdfd220c393ceb04b123d5dee1bbb00ca2f963c687ef .view-content .views-row .type-readmore a {
   text-decoration: none;
   color: black;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
+  padding-left: 10px;
 }
 
 .footer .footer-top {
@@ -945,6 +1657,11 @@
   padding-top: 15px;
 }
 
+.footer .footer-top .menu li::after {
+  background: url("https://corpboip.test-bayer.acsitefactory.com/sites/g/files/kmftyc736/themes/site/docroot/themes/custom/bayer_corp_boip_basetheme/images/icon-arrow.png");
+  background-repeat: no-repeat;
+}
+
 .footer .footer-top .menu a {
   text-decoration: none;
   color: white;
@@ -963,7 +1680,6 @@
     width: 27.9661%;
     float: left;
     margin-right: 1.69492%;
-    border: 1px solid red;
   }
 }
 
@@ -1059,10 +1775,10 @@
   .footer .footer-top .region-footer-four .field--type-text-with-summary p {
     padding-left: 25%;
   }
-  .footer .footer-top .region-footer-four .field--name-field-link .field--name-field-bayph-radlgy-btn-cta-link {
+  .footer .footer-top .region-footer-four .field--type-entity-reference-revisions .button__container .button__link .field--name-field-bayph-radlgy-btn-cta-link {
     padding-top: 20px;
   }
-  .footer .footer-top .region-footer-four .field--name-field-link .field--name-field-bayph-radlgy-btn-cta-link a {
+  .footer .footer-top .region-footer-four .field--type-entity-reference-revisions .button__container .button__link .field--name-field-bayph-radlgy-btn-cta-link a {
     text-decoration: none;
     color: white;
     padding-left: 36%;
@@ -1089,18 +1805,47 @@
   height: 200px;
 }
 
-.footer .footer-middle .region-footer-middle nav h2 {
-  padding-left: 45%;
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .footer .footer-middle .region-footer-middle nav h2 {
+    padding-left: 45%;
+  }
 }
 
-.footer .footer-middle .region-footer-middle .menu {
-  padding-left: 25%;
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .footer .footer-middle .region-footer-middle nav h2 {
+    padding-left: 45%;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .footer .footer-middle .region-footer-middle nav h2 {
+    padding-left: 40%;
+  }
+}
+
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .footer .footer-middle .region-footer-middle .menu {
+    margin-left: 25%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .footer .footer-middle .region-footer-middle .menu {
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .footer .footer-middle .region-footer-middle .menu {
+    padding-left: 5%;
+  }
 }
 
 .footer .footer-middle .region-footer-middle .menu li {
   list-style-type: none;
   display: inline-block;
-  padding-left: 2.63158%;
+  padding-left: 5.26316%;
 }
 
 .footer .footer-middle .region-footer-middle .menu a {
@@ -1111,36 +1856,108 @@
 .footer .footer-bottom {
   background-color: #4287f5;
   color: white;
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.footer .footer-bottom .region-footer-bottom-left {
-  width: 27.9661%;
-  float: left;
-  margin-right: 1.69492%;
+.footer .footer-bottom:after {
+  content: " ";
+  display: block;
+  clear: both;
 }
 
-.footer .footer-bottom .region-footer-bottom-left p {
-  float: right;
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .footer .footer-bottom .region-footer-bottom-left {
+    width: 30.08475%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+  .footer .footer-bottom .region-footer-bottom-left p {
+    float: right;
+  }
 }
 
-.footer .footer-bottom .region-footer-bottom-middle {
-  width: 40.67797%;
-  float: left;
-  margin-right: 1.69492%;
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .footer .footer-bottom .region-footer-bottom-left {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 150px;
+  }
+  .footer .footer-bottom .region-footer-bottom-left p {
+    padding-left: 40%;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .footer .footer-bottom .region-footer-bottom-left {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 150px;
+  }
+  .footer .footer-bottom .region-footer-bottom-left p {
+    padding-left: 40%;
+  }
+}
+
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .footer .footer-bottom .region-footer-bottom-middle {
+    width: 44.91525%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .footer .footer-bottom .region-footer-bottom-middle {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -200px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .footer .footer-bottom .region-footer-bottom-middle {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -200px;
+  }
+}
+
+.footer .footer-bottom .region-footer-bottom-middle .menu {
+  margin-left: 30px;
 }
 
 .footer .footer-bottom .region-footer-bottom-middle .menu li {
   list-style-type: none;
-  padding-left: 20px;
 }
 
 @media screen and (max-width: 5000px) and (min-width: 1025px) {
   .footer .footer-bottom .region-footer-bottom-middle .menu li {
     display: inline-block;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .footer .footer-bottom .region-footer-bottom-middle .menu li {
+    padding-top: 10px;
+    padding-left: 40%;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .footer .footer-bottom .region-footer-bottom-middle .menu li {
+    padding-top: 10px;
+    padding-left: 10px;
   }
 }
 
@@ -1149,14 +1966,59 @@
   color: white;
 }
 
-.footer .footer-bottom .region-footer-bottom-right {
-  width: 15.25424%;
-  float: left;
-  margin-right: 1.69492%;
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .footer .footer-bottom .region-footer-bottom-right {
+    width: 15.25424%;
+    float: left;
+    margin-right: 1.69492%;
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .footer .footer-bottom .region-footer-bottom-right {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -90px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .footer .footer-bottom .region-footer-bottom-right {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -90px;
+  }
+}
+
+.footer .footer-bottom .region-footer-bottom-right .menu {
+  margin-top: 0px;
 }
 
 .footer .footer-bottom .region-footer-bottom-right .menu li {
   list-style-type: none;
+}
+
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .footer .footer-bottom .region-footer-bottom-right .menu li {
+    padding-left: 0%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .footer .footer-bottom .region-footer-bottom-right .menu li {
+    padding-left: 42%;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .footer .footer-bottom .region-footer-bottom-right .menu li {
+    padding-left: 40px;
+  }
 }
 
 .footer .footer-bottom .region-footer-bottom-right .menu li a {
