@@ -1,0 +1,125 @@
+@mixin font-face($name, $file) {
+  @font-face {
+    font-family: "#{$name}";
+    src: url("../fonts/#{$file}.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+  }
+}
+
+@mixin font-face-config($name,
+$file) {
+  @if $name==$HelveticaNeue {
+    @font-face {
+      font-family:"#{$name}";
+      font-style: normal;
+      font-weight: 400;
+      src:url("../fonts/#{$file}.eot?#iefix");
+      src:url("../fonts/#{$file}.eot?#iefix") format("eot"),
+      url("../fonts/#{$file}.woff2") format("woff2"),
+      url("../fonts/#{$file}.woff") format("woff"),
+      url("../fonts/#{$file}.ttf") format("truetype"),
+      url("../fonts/#{$file}") format("svg");
+      font-display: swap
+    }
+  }
+  @if $name==$HelveticaNeue-Italic {
+    @font-face {
+      font-family:"#{$name}";
+      font-style: italic;
+      font-weight: 400;
+      src:url("../fonts/#{$file}.eot?#iefix");
+      src:url("../fonts/#{$file}.eot?#iefix") format("eot"),
+      url("../fonts/#{$file}.woff2") format("woff2"),
+      url("../fonts/#{$file}.woff") format("woff"),
+      url("../fonts/#{$file}.ttf") format("truetype"),
+      url("../fonts/#{$file}") format("svg");
+      font-display: swap
+    }
+  }
+  @if $name==$HelveticaNeue-Thin {
+    @font-face {
+      font-family:"#{$name}";
+      font-style: normal;
+      font-weight: 100;
+      src:url("../fonts/#{$file}.eot?#iefix");
+      src:url("../fonts/#{$file}.eot?#iefix") format("eot"),
+      url("../fonts/#{$file}.woff2") format("woff2"),
+      url("../fonts/#{$file}.woff") format("woff"),
+      url("../fonts/#{$file}.ttf") format("truetype"),
+      url("../fonts/#{$file}") format("svg");
+      font-display: swap
+    }
+  }
+  @if $name==$HelveticaNeue-BoldItalic {
+    @font-face {
+      font-family:"#{$name}";
+      font-style: italic;
+      font-weight: 700;
+      src:url("../fonts/#{$file}.eot?#iefix");
+      src:url("../fonts/#{$file}.eot?#iefix") format("eot"),
+      url("../fonts/#{$file}.woff2") format("woff2"),
+      url("../fonts/#{$file}.woff") format("woff"),
+      url("../fonts/#{$file}.ttf") format("truetype"),
+      url("../fonts/#{$file}") format("svg");
+      font-display: swap
+    }
+  }
+  @if $name==$HelveticaNeue-Light {
+    @font-face {
+      font-family:"#{$name}";
+      font-style: normal;
+      font-weight: 300;
+      src:url("../fonts/#{$file}.eot?#iefix");
+      src:url("../fonts/#{$file}.eot?#iefix") format("eot"),
+      url("../fonts/#{$file}.woff2") format("woff2"),
+      url("../fonts/#{$file}.woff") format("woff"),
+      url("../fonts/#{$file}.ttf") format("truetype"),
+      url("../fonts/#{$file}") format("svg");
+      font-display: swap
+    }
+  }
+  @if $name==$HelveticaNeue-Bold {
+    @font-face {
+      font-family:"#{$name}";
+      font-style: normal;
+      font-weight: 700;
+      src:url("../fonts/#{$file}.eot?#iefix");
+      src:url("../fonts/#{$file}.eot?#iefix") format("eot"),
+      url("../fonts/#{$file}.woff2") format("woff2"),
+      url("../fonts/#{$file}.woff") format("woff"),
+      url("../fonts/#{$file}.ttf") format("truetype"),
+      url("../fonts/#{$file}") format("svg");
+      font-display: swap
+    }
+  }
+  @if $name==$HelveticaNeue-ThinItalic {
+    @font-face {
+      font-family:"#{$name}";
+      font-style: italic;
+      font-weight: 100;
+      src:url("../fonts/#{$file}.eot?#iefix");
+      src:url("../fonts/#{$file}.eot?#iefix") format("eot"),
+      url("../fonts/#{$file}.woff2") format("woff2"),
+      url("../fonts/#{$file}.woff") format("woff"),
+      url("../fonts/#{$file}.ttf") format("truetype"),
+      url("../fonts/#{$file}") format("svg");
+      font-display: swap
+    }
+  }
+  @if $name==$HelveticaNeue-LightItalic {
+    @font-face {
+      font-family:"#{$name}";
+      font-style: italic;
+      font-weight: 300;
+      src:url("../fonts/#{$file}.eot?#iefix");
+      src:url("../fonts/#{$file}.eot?#iefix") format("eot"),
+      url("../fonts/#{$file}.woff2") format("woff2"),
+      url("../fonts/#{$file}.woff") format("woff"),
+      url("../fonts/#{$file}.ttf") format("truetype"),
+      url("../fonts/#{$file}") format("svg");
+      font-display: swap
+    }
+  }
+}

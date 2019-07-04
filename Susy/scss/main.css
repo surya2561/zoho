@@ -1,3 +1,91 @@
+@font-face {
+  font-family: "HelveticaNeue";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/HelveticaNeue.eot?#iefix");
+  src: url("../fonts/HelveticaNeue.eot?#iefix") format("eot"), url("../fonts/HelveticaNeue.woff2") format("woff2"), url("../fonts/HelveticaNeue.woff") format("woff"), url("../fonts/HelveticaNeue.ttf") format("truetype"), url("../fonts/HelveticaNeue") format("svg");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNeue-Thin";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/HelveticaNeue-Thin.eot?#iefix");
+  src: url("../fonts/HelveticaNeue-Thin.eot?#iefix") format("eot"), url("../fonts/HelveticaNeue-Thin.woff2") format("woff2"), url("../fonts/HelveticaNeue-Thin.woff") format("woff"), url("../fonts/HelveticaNeue-Thin.ttf") format("truetype"), url("../fonts/HelveticaNeue-Thin") format("svg");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNeue-BoldItalic";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/HelveticaNeue-BoldItalic.eot?#iefix");
+  src: url("../fonts/HelveticaNeue-BoldItalic.eot?#iefix") format("eot"), url("../fonts/HelveticaNeue-BoldItalic.woff2") format("woff2"), url("../fonts/HelveticaNeue-BoldItalic.woff") format("woff"), url("../fonts/HelveticaNeue-BoldItalic.ttf") format("truetype"), url("../fonts/HelveticaNeue-BoldItalic") format("svg");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNeue-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/HelveticaNeue-Light.eot?#iefix");
+  src: url("../fonts/HelveticaNeue-Light.eot?#iefix") format("eot"), url("../fonts/HelveticaNeue-Light.woff2") format("woff2"), url("../fonts/HelveticaNeue-Light.woff") format("woff"), url("../fonts/HelveticaNeue-Light.ttf") format("truetype"), url("../fonts/HelveticaNeue-Light") format("svg");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNeue-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/HelveticaNeue-Bold.eot?#iefix");
+  src: url("../fonts/HelveticaNeue-Bold.eot?#iefix") format("eot"), url("../fonts/HelveticaNeue-Bold.woff2") format("woff2"), url("../fonts/HelveticaNeue-Bold.woff") format("woff"), url("../fonts/HelveticaNeue-Bold.ttf") format("truetype"), url("../fonts/HelveticaNeue-Bold") format("svg");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNeue-ThinItalic";
+  font-style: italic;
+  font-weight: 100;
+  src: url("../fonts/HelveticaNeue-ThinItalic.eot?#iefix");
+  src: url("../fonts/HelveticaNeue-ThinItalic.eot?#iefix") format("eot"), url("../fonts/HelveticaNeue-ThinItalic.woff2") format("woff2"), url("../fonts/HelveticaNeue-ThinItalic.woff") format("woff"), url("../fonts/HelveticaNeue-ThinItalic.ttf") format("truetype"), url("../fonts/HelveticaNeue-ThinItalic") format("svg");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNeue-LightItalic";
+  font-style: italic;
+  font-weight: 300;
+  src: url("../fonts/HelveticaNeue-LightItalic.eot?#iefix");
+  src: url("../fonts/HelveticaNeue-LightItalic.eot?#iefix") format("eot"), url("../fonts/HelveticaNeue-LightItalic.woff2") format("woff2"), url("../fonts/HelveticaNeue-LightItalic.woff") format("woff"), url("../fonts/HelveticaNeue-LightItalic.ttf") format("truetype"), url("../fonts/HelveticaNeue-LightItalic") format("svg");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNeue-Italic";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/HelveticaNeue-Italic.eot?#iefix");
+  src: url("../fonts/HelveticaNeue-Italic.eot?#iefix") format("eot"), url("../fonts/HelveticaNeue-Italic.woff2") format("woff2"), url("../fonts/HelveticaNeue-Italic.woff") format("woff"), url("../fonts/HelveticaNeue-Italic.ttf") format("truetype"), url("../fonts/HelveticaNeue-Italic") format("svg");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Caveat-Bold";
+  src: url("../fonts/Caveat-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Caveat-Regular";
+  src: url("../fonts/Caveat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
 .header {
   max-width: 100%;
   margin-left: auto;
@@ -124,6 +212,7 @@
 .header .header-top .region-header-top .block-system-branding-block .site-title .site-name a {
   color: black;
   text-decoration: none;
+  font-family: "HelveticaNeue-Thin";
 }
 
 @media screen and (max-width: 5000px) and (min-width: 1025px) {
@@ -296,6 +385,21 @@
   }
 }
 
+@media screen and (max-width: 766px) {
+  .header .header-main .main-navigation .menu--main .search {
+    width: 6.77966%;
+    float: left;
+    margin-left: 88.98305%;
+    margin-right: -100%;
+    border: 1px solid red;
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+    margin-right: 200px;
+    margin-left: 85%;
+  }
+}
+
 @media screen and (max-width: 5000px) and (min-width: 1025px) {
   .header .header-main .main-navigation .menu--main .menu {
     width: 40.67797%;
@@ -339,6 +443,7 @@
 }
 
 .header .header-main .main-navigation .menu--main .menu a {
+  font-family: "HelveticaNeue-Light";
   text-decoration: none;
   color: black;
 }
@@ -346,40 +451,142 @@
 @media screen and (max-width: 5000px) and (min-width: 1025px) {
   .header .header-main .header-search {
     display: none;
-    margin-top: 20px;
+    width: 91.52542%;
+    float: left;
+    margin-right: 1.69492%;
+    border: 1px solid red;
+    margin-top: 200px;
     height: 100px;
   }
   .header .header-main .header-search .form--inline .js-form-type-search-api-autocomplete {
     padding-left: 20%;
   }
   .header .header-main .header-search .form--inline .js-form-type-search-api-autocomplete input {
-    height: 50px;
-    width: 500px;
+    position: absolute;
+    height: 52px;
+    width: 700px;
+  }
+  .header .header-main .header-search .form--inline .js-form-type-search-api-autocomplete input::-webkit-input-placeholder {
+    padding-left: 30px;
+  }
+  .header .header-main .header-search .form--inline .js-form-type-search-api-autocomplete input:-ms-input-placeholder {
+    padding-left: 30px;
+  }
+  .header .header-main .header-search .form--inline .js-form-type-search-api-autocomplete input::-ms-input-placeholder {
+    padding-left: 30px;
+  }
+  .header .header-main .header-search .form--inline .js-form-type-search-api-autocomplete input::placeholder {
+    padding-left: 30px;
   }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 767px) {
   .header .header-main .header-search {
     display: none;
-    width: 100%;
+    width: 91.52542%;
     float: left;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 20px;
+    margin-right: 1.69492%;
+    margin-top: 150px;
     height: 100px;
   }
   .header .header-main .header-search .form--inline .js-form-type-search-api-autocomplete {
     padding-left: 20%;
   }
   .header .header-main .header-search .form--inline .js-form-type-search-api-autocomplete input {
-    height: 50px;
+    height: 52px;
     width: 500px;
+    border: 1px solid red;
+  }
+  .header .header-main .header-search .form--inline .js-form-type-search-api-autocomplete input::-webkit-input-placeholder {
+    padding-left: 30px;
+  }
+  .header .header-main .header-search .form--inline .js-form-type-search-api-autocomplete input:-ms-input-placeholder {
+    padding-left: 30px;
+  }
+  .header .header-main .header-search .form--inline .js-form-type-search-api-autocomplete input::-ms-input-placeholder {
+    padding-left: 30px;
+  }
+  .header .header-main .header-search .form--inline .js-form-type-search-api-autocomplete input::placeholder {
+    padding-left: 30px;
   }
 }
 
 @media screen and (max-width: 766px) {
   .header .header-main .header-search {
     display: none;
+    width: 91.52542%;
+    float: left;
+    margin-right: 1.69492%;
+    margin-top: 70px;
+    height: 100px;
+  }
+  .header .header-main .header-search .form--inline .js-form-type-search-api-autocomplete {
+    padding-left: 20%;
+  }
+  .header .header-main .header-search .form--inline .js-form-type-search-api-autocomplete input {
+    height: 52px;
+    width: 200px;
+    border: 1px solid red;
+  }
+  .header .header-main .header-search .form--inline .js-form-type-search-api-autocomplete input::-webkit-input-placeholder {
+    padding-left: 20px;
+  }
+  .header .header-main .header-search .form--inline .js-form-type-search-api-autocomplete input:-ms-input-placeholder {
+    padding-left: 20px;
+  }
+  .header .header-main .header-search .form--inline .js-form-type-search-api-autocomplete input::-ms-input-placeholder {
+    padding-left: 20px;
+  }
+  .header .header-main .header-search .form--inline .js-form-type-search-api-autocomplete input::placeholder {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .header .header-main .box {
+    width: 75px;
+    height: 57px;
+    margin-left: 675px;
+    position: absolute;
+  }
+  .header .header-main .search1 {
+    position: absolute;
+    height: 30px;
+    height: 30px;
+    margin-left: 700px;
+    margin-top: 18px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .header .header-main .box {
+    width: 75px;
+    height: 56px;
+    margin-left: -20px;
+    position: absolute;
+  }
+  .header .header-main .search1 {
+    position: absolute;
+    height: 30px;
+    height: 30px;
+    margin-left: 0px;
+    margin-top: 18px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .header .header-main .box {
+    width: 75px;
+    height: 56px;
+    margin-left: -20px;
+    position: absolute;
+  }
+  .header .header-main .search1 {
+    position: absolute;
+    height: 30px;
+    height: 30px;
+    margin-left: 0px;
+    margin-top: 18px;
   }
 }
 
@@ -387,46 +594,96 @@
   margin-top: 1.75439%;
 }
 
-.content .region-content .block-system-main-block .desktop-wrapper img {
+.content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .desktop-wrapper .field--name-field-bayph-jivi-img img {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.content .region-content .block-system-main-block .desktop-wrapper img:after {
+.content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .desktop-wrapper .field--name-field-bayph-jivi-img img:after {
   content: " ";
   display: block;
   clear: both;
 }
 
 @media screen and (max-width: 5000px) and (min-width: 1025px) {
-  .content .region-content .block-system-main-block .desktop-wrapper img {
+  .content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .desktop-wrapper .field--name-field-bayph-jivi-img img {
+    width: 99%;
     height: 600px;
   }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 767px) {
-  .content .region-content .block-system-main-block .desktop-wrapper img {
+  .content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .desktop-wrapper .field--name-field-bayph-jivi-img img {
+    width: 99%;
     height: 400px;
   }
 }
 
 @media screen and (max-width: 766px) {
-  .content .region-content .block-system-main-block .desktop-wrapper img {
+  .content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .desktop-wrapper .field--name-field-bayph-jivi-img img {
+    width: 99%;
     height: 300px;
   }
 }
 
-.content .region-content .block-system-main-block .field--name-field-bayph-jivi-title {
-  position: absolute;
-  left: 5.26316%;
-  top: 400px;
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .desktop-wrapper ::after {
+    width: 98%;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: -16%;
+    height: 35%;
+    -webkit-transform: skewY(-7.5deg);
+            transform: skewY(-7.5deg);
+    background-color: white;
+  }
 }
 
-.content .region-content .block-system-main-block .field--name-field-bayph-jivi-title .hero-title1 {
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .desktop-wrapper ::after {
+    width: 98%;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 20%;
+    height: 21%;
+    -webkit-transform: skewY(-3deg);
+            transform: skewY(-3deg);
+    background-color: white;
+  }
+}
+
+.content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .field--name-field-bayph-jivi-title {
+  position: absolute;
+  left: 5.26316%;
+}
+
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .field--name-field-bayph-jivi-title {
+    top: 400px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .field--name-field-bayph-jivi-title {
+    top: 250px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .field--name-field-bayph-jivi-title {
+    top: 200px;
+  }
+}
+
+.content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .field--name-field-bayph-jivi-title .hero-title1 {
   font-family: "HelveticaNeue-ThinItalic";
   color: #FFFFFF;
   background-color: #89D329;
+  padding-left: 20px;
+  padding-right: 20px;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
@@ -435,24 +692,26 @@
 }
 
 @media screen and (max-width: 5000px) and (min-width: 1025px) {
-  .content .region-content .block-system-main-block .field--name-field-bayph-jivi-title .hero-title1 {
+  .content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .field--name-field-bayph-jivi-title .hero-title1 {
     font-size: 60px;
   }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 767px) {
-  .content .region-content .block-system-main-block .field--name-field-bayph-jivi-title .hero-title1 {
+  .content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .field--name-field-bayph-jivi-title .hero-title1 {
     font-size: 40px;
   }
 }
 
 @media screen and (max-width: 766px) {
-  .content .region-content .block-system-main-block .field--name-field-bayph-jivi-title .hero-title1 {
+  .content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .field--name-field-bayph-jivi-title .hero-title1 {
     font-size: 30px;
   }
 }
 
-.content .region-content .block-system-main-block .field--name-field-bayph-jivi-title .hero-title2 {
+.content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .field--name-field-bayph-jivi-title .hero-title2 {
+  padding-left: 20px;
+  padding-right: 20px;
   font-family: "HelveticaNeue-ThinItalic";
   color: #FFFFFF;
   background-color: #89D329;
@@ -465,63 +724,130 @@
 }
 
 @media screen and (max-width: 5000px) and (min-width: 1025px) {
-  .content .region-content .block-system-main-block .field--name-field-bayph-jivi-title .hero-title2 {
+  .content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .field--name-field-bayph-jivi-title .hero-title2 {
     font-size: 60px;
     margin-top: 70px;
   }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 767px) {
-  .content .region-content .block-system-main-block .field--name-field-bayph-jivi-title .hero-title2 {
+  .content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .field--name-field-bayph-jivi-title .hero-title2 {
     font-size: 40px;
     margin-top: 50px;
   }
 }
 
 @media screen and (max-width: 766px) {
-  .content .region-content .block-system-main-block .field--name-field-bayph-jivi-title .hero-title2 {
+  .content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .field--name-field-bayph-jivi-title .hero-title2 {
     font-size: 30px;
     margin-top: 30px;
   }
 }
 
-.content .region-content .block-system-main-block .field--name-field-bayph-jivi-body {
-  padding-left: 57.226%;
-  margin-top: -13%;
+.content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .field--name-field-bayph-jivi-body p {
+  position: absolute;
+  font-size: 24px;
+  color: #10384F;
+  font-family: "HelveticaNeue-Thin";
 }
 
-.content .region-content .block-system-main-block .field--name-field-bayer-innovative-banner-ct .field--name-field-bayph-radlgy-btn-cta-link {
-  padding-left: 57.226%;
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .field--name-field-bayph-jivi-body p {
+    width: 44.91525%;
+    float: left;
+    margin-right: 1.69492%;
+    height: 200px;
+    padding-left: 52%;
+    margin-top: -10%;
+  }
 }
 
-.content .region-content .block-system-main-block .field--name-field-bayer-innovative-banner-ct .field--name-field-bayph-radlgy-btn-cta-link img {
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .field--name-field-bayph-jivi-body p {
+    width: 83.05085%;
+    float: left;
+    margin-right: 1.69492%;
+    padding-left: 10%;
+    margin-top: -5%;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .field--name-field-bayph-jivi-body p {
+    width: 83.05085%;
+    float: left;
+    margin-right: 1.69492%;
+    padding-left: 5%;
+    padding-right: 10%;
+  }
+}
+
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .field--name-field-bayer-innovative-banner-ct .field--name-field-bayph-radlgy-btn-cta-link {
+    padding-left: 52%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .field--name-field-bayer-innovative-banner-ct .field--name-field-bayph-radlgy-btn-cta-link {
+    padding-left: 10%;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 766px) and (min-width: 501px) {
+  .content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .field--name-field-bayer-innovative-banner-ct .field--name-field-bayph-radlgy-btn-cta-link {
+    padding-left: 5%;
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .field--name-field-bayer-innovative-banner-ct .field--name-field-bayph-radlgy-btn-cta-link {
+    margin-top: 170px;
+    padding-left: 5%;
+  }
+}
+
+.content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .field--name-field-bayer-innovative-banner-ct .field--name-field-bayph-radlgy-btn-cta-link img {
   width: 15px;
   height: 22px;
   position: absolute;
+  margin-top: -5px;
 }
 
-.content .region-content .block-system-main-block .field--name-field-bayer-innovative-banner-ct .field--name-field-bayph-radlgy-btn-cta-link a {
+.content .region-content .block-system-main-block .field--type-entity-reference-revisions .home-hero-banner-wrapper .field--name-field-bayer-innovative-banner-ct .field--name-field-bayph-radlgy-btn-cta-link a {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+  position: absolute;
   text-decoration: none;
   color: red;
   font-size: 15px;
   padding-left: 20px;
 }
 
-.content .region-content .block-system-main-block .field--name-field-bayer-innovative-banner-ct .field--name-field-bayph-radlgy-btn-cta-link a ::after {
-  content: "";
-  height: 20px;
-  width: 20px;
-  position: absolute;
-  top: 13px;
-  left: -3px;
-  background-image: url("https://corpboip.test-bayer.acsitefactory.com/sites/g/files/kmftyc736/themes/site/docroot/themes/custom/bayer_corp_boip_basetheme/images/vertical_lines.png");
-  background-repeat: no-repeat;
+.container-offering-1.paragraph--type--section-header .field--name-field-section-title {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.container-offering-1.paragraph--type--section-header .field--name-field-section-title {
-  margin-left: 35%;
-  padding-top: 30px;
-  padding-bottom: 10px;
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .container-offering-1.paragraph--type--section-header .field--name-field-section-title {
+    margin-left: 35%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .container-offering-1.paragraph--type--section-header .field--name-field-section-title {
+    margin-left: 35%;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .container-offering-1.paragraph--type--section-header .field--name-field-section-title {
+    margin-left: 25%;
+  }
 }
 
 .container-offering-1.paragraph--type--section-header .field--name-field-section-title .line-1 img {
@@ -556,9 +882,16 @@
   margin-top: 22px;
 }
 
-.container-offering-1.paragraph--type--section-header .field--name-field-section-title p {
+.container-offering-1.paragraph--type--section-header .field--name-field-section-title .one {
   font-size: 30px;
   padding-left: 40px;
+  color: #00bcff;
+}
+
+.container-offering-1.paragraph--type--section-header .field--name-field-section-title .two {
+  font-size: 30px;
+  padding-left: 40px;
+  margin-top: -15px;
   color: #00bcff;
 }
 
@@ -742,7 +1075,6 @@
 }
 
 .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 {
-  margin-top: 10.52632%;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -757,29 +1089,45 @@
 @media screen and (min-width: 1025px) and (max-width: 5000px) {
   .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 {
     margin-left: 15.78947%;
+    margin-top: 10.52632%;
   }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1024px) {
   .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 {
     margin-left: 15.78947%;
+    margin-top: 10.52632%;
   }
 }
 
-.product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .field--name-field-section-header .section-header .field--name-field-section-title {
-  margin-left: 35%;
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .field--name-field-section-header .section-header .field--name-field-section-title {
+    margin-left: 35%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .field--name-field-section-header .section-header .field--name-field-section-title {
+    margin-left: 35%;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .field--name-field-section-header .section-header .field--name-field-section-title {
+    margin-left: 25%;
+  }
 }
 
 .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .field--name-field-section-header .section-header .field--name-field-section-title .line-1 img {
-  height: 5px;
-  width: 20px;
+  height: 0px;
+  width: 0px;
   position: absolute;
   margin-top: 20px;
 }
 
 .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .field--name-field-section-header .section-header .field--name-field-section-title .line-2 img {
-  height: 50px;
-  width: 30px;
+  height: 0px;
+  width: 0px;
   -webkit-transition: all 0.9s ease-out 0s;
   transition: all 0.9s ease-out 0s;
   position: absolute;
@@ -788,8 +1136,8 @@
 }
 
 .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .field--name-field-section-header .section-header .field--name-field-section-title .line-3 img {
-  height: 5px;
-  width: 20px;
+  height: 0px;
+  width: 0px;
   -webkit-transition: all 0.9s ease-out 0s;
   transition: all 0.9s ease-out 0s;
   position: absolute;
@@ -798,8 +1146,8 @@
 }
 
 .product-introduction-wrapper.paragraph.paragraph--type--bayph-radlgy-p-prod-intro-1 .field--name-field-section-header .section-header .field--name-field-section-title .line-4 img {
-  height: 50px;
-  width: 30px;
+  height: 0px;
+  width: 0px;
   -webkit-transition: all 0.9s ease-out 0s;
   transition: all 0.9s ease-out 0s;
   position: absolute;
@@ -838,6 +1186,7 @@
     float: left;
     margin-left: 0;
     margin-right: 0;
+    margin-top: 20px;
   }
 }
 
@@ -1053,22 +1402,39 @@
 }
 
 .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .field--name-field-section-header .section-header .field--name-field-section-title {
-  margin-left: 20%;
   padding-top: 40px;
   padding-bottom: 20px;
 }
 
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .field--name-field-section-header .section-header .field--name-field-section-title {
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .field--name-field-section-header .section-header .field--name-field-section-title {
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .field--name-field-section-header .section-header .field--name-field-section-title {
+    margin-left: 3%;
+  }
+}
+
 .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .field--name-field-section-header .section-header .field--name-field-section-title .line-1 img {
-  height: 5px;
-  width: 20px;
+  height: 0px;
+  width: 0px;
   position: absolute;
   margin-top: 20px;
   margin-left: 25px;
 }
 
 .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .field--name-field-section-header .section-header .field--name-field-section-title .line-2 img {
-  height: 50px;
-  width: 30px;
+  height: 0px;
+  width: 0px;
   -webkit-transition: all 0.9s ease-out 0s;
   transition: all 0.9s ease-out 0s;
   position: absolute;
@@ -1077,8 +1443,8 @@
 }
 
 .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .field--name-field-section-header .section-header .field--name-field-section-title .line-3 img {
-  height: 5px;
-  width: 20px;
+  height: 0px;
+  width: 0px;
   -webkit-transition: all 0.9s ease-out 0s;
   transition: all 0.9s ease-out 0s;
   position: absolute;
@@ -1087,8 +1453,8 @@
 }
 
 .product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .field--name-field-section-header .section-header .field--name-field-section-title .line-4 img {
-  height: 50px;
-  width: 30px;
+  height: 0px;
+  width: 0px;
   -webkit-transition: all 0.9s ease-out 0s;
   transition: all 0.9s ease-out 0s;
   position: absolute;
@@ -1096,8 +1462,15 @@
   margin-top: 22px;
 }
 
-.product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .field--name-field-section-header .section-header .field--name-field-section-title p {
+.product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .field--name-field-section-header .section-header .field--name-field-section-title .one {
   font-size: 30px;
+  padding-left: 40px;
+  color: #00bcff;
+}
+
+.product-introduction-wrapper.location-wrapper.paragraph--type--bayph-radlgy-p-prod-intro .field--name-field-section-header .section-header .field--name-field-section-title .two {
+  font-size: 30px;
+  margin-top: -10px;
   padding-left: 40px;
   color: #00bcff;
 }
@@ -1252,9 +1625,26 @@
 }
 
 .container-offering.paragraph--type--section-header .field--name-field-section-title {
-  margin-left: 40%;
   padding-top: 30px;
   padding-bottom: 10px;
+}
+
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
+  .container-offering.paragraph--type--section-header .field--name-field-section-title {
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .container-offering.paragraph--type--section-header .field--name-field-section-title {
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .container-offering.paragraph--type--section-header .field--name-field-section-title {
+    margin-left: 20%;
+  }
 }
 
 .container-offering.paragraph--type--section-header .field--name-field-section-title .line-1 img {

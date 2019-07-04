@@ -6,6 +6,7 @@
 @import "_buzz";
 @import "_footer";
 @import "2-pic-combine1";
+@import "_mixins";
 @include header();
 @include banner();
 @include box-section1();

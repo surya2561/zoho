@@ -1,0 +1,33 @@
+@import "_mixins";
+
+$font-family-thin: "HelveticaNeue-Thin";
+$font-family-light: "HelveticaNeue-Light";
+$HelveticaNeue:"HelveticaNeue";
+$HelveticaNeue-Bold:"HelveticaNeue-Bold";
+$HelveticaNeue-BoldItalic:"HelveticaNeue-BoldItalic";
+$HelveticaNeue-CondensedBlack:"HelveticaNeue-CondensedBlack";
+$HelveticaNeue-CondensedBold:"HelveticaNeue-CondensedBold";
+$HelveticaNeue-Italic:"HelveticaNeue-Italic";
+$HelveticaNeue-Light:"HelveticaNeue-Light";
+$HelveticaNeue-LightItalic:"HelveticaNeue-LightItalic";
+$HelveticaNeue-Medium:"HelveticaNeue-Medium";
+$HelveticaNeue-MediumItalic:"HelveticaNeue-MediumItalic";
+$HelveticaNeue-Thin:"HelveticaNeue-Thin";
+$HelveticaNeue-ThinItalic:"HelveticaNeue-ThinItalic";
+$HelveticaNeue-UltraLight:"HelveticaNeue-UltraLight";
+$HelveticaNeue-UltraLightItalic:"HelveticaNeue-UltraLightItalic";
+// Font Family File Names
+$Caveat-Bold:"Caveat-Bold";
+$Caveat-Regular:"Caveat-Regular";
+
+
+@include font-face-config($HelveticaNeue, $HelveticaNeue);
+@include font-face-config($HelveticaNeue-Thin, $HelveticaNeue-Thin);
+@include font-face-config($HelveticaNeue-BoldItalic, $HelveticaNeue-BoldItalic);
+@include font-face-config($HelveticaNeue-Light, $HelveticaNeue-Light);
+@include font-face-config($HelveticaNeue-Bold, $HelveticaNeue-Bold);
+@include font-face-config($HelveticaNeue-ThinItalic,$HelveticaNeue-ThinItalic);
+@include font-face-config($HelveticaNeue-LightItalic,$HelveticaNeue-LightItalic);
+@include font-face-config($HelveticaNeue-Italic,$HelveticaNeue-Italic);
+@include font-face($Caveat-Bold,$Caveat-Bold);
+@include font-face($Caveat-Regular,$Caveat-Regular);

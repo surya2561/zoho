@@ -1,3 +1,4 @@
+@import "_fonts";
 @mixin header(){
 .header{
     @include container();
@@ -25,7 +26,8 @@
                         @include span(isolate 1 at 2 of 12);
 
                         height:100px;
-                        width:100px;                        }
+                        width:100px;                        
+                        }
                         @media screen and (max-width:1024px) and (min-width:767px){
                             @include span(isolate 1 at 1 of 12);
                             height:70px;
@@ -75,8 +77,10 @@
                         a{
                            color:black;
                             text-decoration: none;
+                             font-family: $font-family-thin;
                             @media screen and (max-width:5000px) and (min-width:1025px){
                             font-size:40px;
+                           
                             }
                             @media screen and (max-width:1024px) and (min-width:767px){
                             font-size:40px;
@@ -209,15 +213,14 @@
             }
         }
         .main-navigation{
-            .menu--main{
-                 
-                        
+            .menu--main{                        
                          .search{
                          @media screen and (max-width:5000px) and (min-width:1025px){
                              @include span(isolate 1 at 5.5 of 12);
                          margin-top:120px;
                          height:20px;
                            width:20px;
+                          
                          }
                          @media screen and (max-width:1024px) and (min-width:767px){
                              @include span(isolate 1 at 11.5 of 12);
@@ -227,9 +230,16 @@
                          }
                           @media screen and (max-width:766px){
                               
-                        
+                        @include span(isolate 1 at 11.5 of 12);
+                         border:1px solid red;
+                             width:30px;
+                                height:30px;
+                             margin-top:-30px;
+                             margin-right:200px;
+                             margin-left:85%;
                           }
                          }
+                         
                        
                     
                 .menu{
@@ -270,6 +280,7 @@
                     }
                 }
                     a{
+                        font-family:"HelveticaNeue-Light";
                         text-decoration: none;
                         color:black;
                     }
@@ -280,41 +291,119 @@
         .header-search{
             @media screen and (max-width:5000px) and (min-width:1025px){
             display: none;
-             margin-top:20px;
+            
+            @include span(11 of 12);
+            border:1px solid red;
+             margin-top:200px;
                height: 100px;
                .form--inline{
                    .js-form-type-search-api-autocomplete{
                         padding-left: 20%;
                        
                        input{
-                           height: 50px;
-                          width:500px;
-                        
-                        
+                           position:absolute;
+                           height: 52px;
+                          width:700px;
+
+                          &::placeholder{
+                              padding-left:30px;
+                          }
                        }
                    }
                }
             }
            @media screen and (max-width:1024px) and (min-width:767px){
                display:none;
-               @include span(12 of 12);
-               margin-top:20px;
+               @include span(11 of 12);
+               margin-top:150px;
                height: 100px;
                .form--inline{
                    .js-form-type-search-api-autocomplete{
                         padding-left: 20%;
                        input{
-                           height: 50px;
+                           height: 52px;
                           width:500px;
-                        
+                          border:1px solid red;
+
+                         &::placeholder{
+                              padding-left:30px;
+                          }
                        }
                    }
                }
            }
            @media screen and (max-width:766px){
                display:none;
+               @include span(11 of 12);
+               margin-top:70px;
+               height: 100px;
+               .form--inline{
+                   .js-form-type-search-api-autocomplete{
+                        padding-left: 20%;
+                       input{
+                           height: 52px;
+                          width:200px;
+                          border:1px solid red;
+
+                         &::placeholder{
+                              padding-left:20px;
+                          }
+                       }
+                   }
+               }
            }
         }
+         @media screen and (max-width:5000px) and (min-width:1025px){
+             .box{
+                
+                 width:75px;
+                 height:57px;
+                 margin-left:675px;
+                 position:absolute;
+             }
+             .search1{
+               
+                 position:absolute;
+                 height:30px;
+                 height:30px;
+                 margin-left:700px;
+                 margin-top:18px;
+             }
+         }
+         @media screen and (max-width:1024px) and (min-width:767px){
+             .box{
+                
+                 width:75px;
+                 height:56px;
+                 margin-left:-20px;
+                 position:absolute;
+             }
+             .search1{
+               
+                 position:absolute;
+                 height:30px;
+                 height:30px;
+                 margin-left:0px;
+                 margin-top:18px;
+             }
+         }
+         @media screen and (max-width:766px){
+             .box{
+                
+                 width:75px;
+                 height:56px;
+                 margin-left:-20px;
+                 position:absolute;
+             }
+             .search1{
+               
+                 position:absolute;
+                 height:30px;
+                 height:30px;
+                 margin-left:0px;
+                 margin-top:18px;
+             }
+         }
     }
 }
 }

@@ -4,7 +4,16 @@
 .container-offering{
     &.paragraph--type--section-header{
         .field--name-field-section-title{
-                margin-left:40%;
+                
+                  @media screen and (max-width:5000px) and (min-width:1025px){
+                            margin-left:40%;
+                            }
+                            @media screen and (max-width:1024px) and (min-width:767px){
+                                margin-left:40%;
+                            }
+                            @media screen and (max-width:766px){
+                                margin-left:20%;
+                            }
                          padding-top:30px;
                          padding-bottom:10px;
                         .line-1{
