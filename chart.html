@@ -1,0 +1,115 @@
+<html>
+<head>
+	<title>My first chart using FusionCharts Suite XT</title>
+	<script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
+	<script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
+	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+	<script type="text/javascript">
+		function myMethod()
+		{
+		var chart = new CanvasJS.Chart("chartContainer", {
+
+        theme: "light2",
+
+        animationEnabled: true,
+
+       
+
+          axisY: {       
+
+            lineThickness: 0,
+
+            suffix: "K",
+
+            interval:2,
+
+            maximum:12,
+
+          },
+
+          axisY2: {
+
+          minimum:45,
+
+          tickColor: "#C0504E",
+
+          maximum:50,
+
+          interval:1,
+
+          stripLines: [{
+
+          value: 47.0,
+
+          label:"47.0%",
+
+          labelFontColor:"#AD119E",
+
+          showInLegend: "true",
+
+          color:"#AD119E"
+
+        },
+        ],
+
+        }, 
+
+        dataPointWidth: 15,
+
+          data: [
+		  {
+		  type: "column",
+		  
+		  dataPoints: [
+		    { label: "Rollover SKUs",  y: 7.2,indexLabel:"7.2%", color:"#0E13AA"},
+
+              { label: "Incremental SKUs", y: 10,indexLabel:"10%",color:"#0E13AA" },
+
+              { label: "Total SKUs", isIntermediateSum: true,color:"#7F5583"}, 
+		  ]
+		  },
+    
+
+          {
+
+            type:"line",
+
+            showInLegend: "true",
+
+            axisYType: "secondary",
+
+            legendText:"VCM<Threshold",
+
+            color:"lightgrey",
+
+            indexLabel: "{y1}",
+
+            lineColor:"lightgrey",
+
+            dataPoints:[
+
+            { label: "Rollover SKUs",  y: 47.1, markerColor: "red",indexLabel:"47.1%",indexLabelFontColor:"red"},
+
+            { label: "Incremental SKUs", y: 49.8, markerColor: "green",indexLabel:"49.8%",indexLabelFontColor:"green"},
+
+            { label: "Total SKUs", y: 47.5, markerColor: "green",indexLabel:"47.5%",indexLabelFontColor:"green"},
+
+            ]
+
+          }
+
+          ]
+
+        });
+
+        chart.render();
+
+}
+
+	</script>
+	</head>
+	<body>
+	<button onclick = "myMethod()">click</button>
+		<div id="chartContainer">FusionCharts XT will load here!</div>
+	</body>
+</html>
